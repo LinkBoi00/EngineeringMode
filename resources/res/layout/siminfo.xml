@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:id="@+id/siminfo_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/sim_info_status"/>
+    <FrameLayout android:id="@+id/siminfo_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

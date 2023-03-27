@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/nr_map_config"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/nr_map_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="n/a"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/nr_map_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/nr_map_on_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nr_map_turn_on"/>
+            <RadioButton android:id="@+id/nr_map_off_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nr_map_turn_off"/>
+        </RadioGroup>
+        <Button android:gravity="center" android:id="@+id/nr_map_set_button" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="200dp" android:text="@string/nr_map_set"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/nr_map_config"/>
+        <Button android:gravity="center" android:id="@+id/nr_map_set_button_unknown" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/nr_map_set_unknown"/>
+        <Button android:gravity="center" android:id="@+id/nr_map_set_button_unavailable" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/nr_map_set_unavailable"/>
+        <Button android:gravity="center" android:id="@+id/nr_map_set_button_available" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/nr_map_set_available"/>
+        <Button android:gravity="center" android:id="@+id/nr_map_set_button_clear" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/nr_map_set_clear"/>
+    </LinearLayout>
+</LinearLayout>

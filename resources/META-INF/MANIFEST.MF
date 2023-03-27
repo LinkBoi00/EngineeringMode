@@ -1,0 +1,966 @@
+Manifest-Version: 1.0
+Created-By: soong_zip
+
+Name: AndroidManifest.xml
+SHA-256-Digest: w1i5cjOLCf1MNHx0VD+A6PuzQalY8l1C1xnRPftEYqg=
+
+Name: assets/audio.ogg
+SHA-256-Digest: tolo09owPKJhEd+iM0AIvxJYYp6191zHxvJVJdW3Gyk=
+
+Name: assets/vilte_media_profiles_opxx.xml
+SHA-256-Digest: cFbP1lKauuZg+rsMS8ZsKmK/bTNFDXyB55ZzqcMXhDc=
+
+Name: classes.dex
+SHA-256-Digest: HZayzHfEX93t4TfeAgR8xYbSMZwtZLYiqjDgWmy7Fdk=
+
+Name: classes2.dex
+SHA-256-Digest: n3dAefj5rATO6dSq8NXfNdqKG38TmDkMsNxOH+MXBRE=
+
+Name: res/drawable-hdpi-v4/fm_unknown.png
+SHA-256-Digest: IJXJQuz8dUDB05PZUCfXSIhSvY1Ny3f3cUvQt/fGJzg=
+
+Name: res/drawable-hdpi-v4/ic_b.png
+SHA-256-Digest: F3fp5tB2TQJPJo3lSCHig4DbdxA+a6/feY6/Y1izXqY=
+
+Name: res/drawable-hdpi-v4/ic_d.png
+SHA-256-Digest: mzJrlizQEY0/sLjFlxRS2K+lupYF/Dy/pYIPrex8t7k=
+
+Name: res/drawable-hdpi-v4/ic_m.png
+SHA-256-Digest: UO4Dv3cOaVKlN8NMP5mzCs/ad0JUN6KQp5AqvCV5XOA=
+
+Name: res/drawable-v21/notification_action_background.xml
+SHA-256-Digest: ywavZmGMd4X7EyDJVbdu0Szww2EEgs36uUpclnTThFk=
+
+Name: res/drawable-xhdpi-v4/fm_file.png
+SHA-256-Digest: RSqqq5gtnlAoXZ6VkTAocJdQkuOKNPCvtvV3e83i8wo=
+
+Name: res/drawable-xhdpi-v4/fm_folder.png
+SHA-256-Digest: kJcAXtVfE6w+xRj0v2FQ6hloCRqgJWIoZDrnoalQQ1Y=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+SHA-256-Digest: PgmvohxFNywDVZjAF8j7QFptZ45suE3IV1gcs7QOSC0=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+SHA-256-Digest: IDQyIvn3ndVlw6IkhJTUUucIIKwcQ3Fzw4ut1F+WKv0=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+SHA-256-Digest: VZv3g9dlwCM46XlSvcnGaJx/+ZCQuMmBM2kRjaiwgPA=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+SHA-256-Digest: 0nr0NRAcpMvsDIQL0waHkYzTnrg6qxSHQghVYjpFmYs=
+
+Name: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+SHA-256-Digest: tE7to016Upwv5VcZ6wmPopcHyqkdGN4Gp6d11ua8+XM=
+
+Name: res/drawable/cross.png
+SHA-256-Digest: 9lAdFnpzKy19UVujoqdkShgV1p9Q3CQXTcb4m57RRrQ=
+
+Name: res/drawable/dialog_btn_selector.xml
+SHA-256-Digest: BMlomobUL15BDQYTAVsytQrFimK8rEc6ZvzWu43AOPg=
+
+Name: res/drawable/edittext_background.xml
+SHA-256-Digest: LaePh1FtFDWg6wL+FZSf460sZyAH/7bTbfYGSF8MwVc=
+
+Name: res/drawable/list_corner.xml
+SHA-256-Digest: xGgyjV5wgmQxzRn+YiuAlSYtllrKq+Grf/eat7e55Kg=
+
+Name: res/drawable/listview_btn_selector.xml
+SHA-256-Digest: 3XXw8b4k7dRHmoE9pMQX8GktNAwpo81pmzxH4//Svno=
+
+Name: res/drawable/notification_bg.xml
+SHA-256-Digest: YCKEiJ7noN+w46OIZarNkSRJZ5LRSD5J8Lr0YWWCml8=
+
+Name: res/drawable/notification_bg_low.xml
+SHA-256-Digest: WVNe5De37YaWLm/q23FYRf7CKx85dTZGoLcyexzrTVU=
+
+Name: res/drawable/notification_icon_background.xml
+SHA-256-Digest: p+OAdINhSYbfbgdFljjrsjXjxsGjSqPqASRScKs208Q=
+
+Name: res/drawable/notification_tile_bg.xml
+SHA-256-Digest: 5xf8N+EIINYj3B8btKW9UVS5adYSu95NkJOVJPP6ZGE=
+
+Name: res/drawable/point.png
+SHA-256-Digest: zFX3jCGPvrZcIenUqRn/08auiT2R8XiUExln5XUIh2o=
+
+Name: res/drawable/selector_button.xml
+SHA-256-Digest: 894yzFiBwMtGyEeDwz2U8UTN3/aqKmIFyd0cpyajUr0=
+
+Name: res/drawable/selector_edit_frame.xml
+SHA-256-Digest: /BGbtwbm7iU5zJx6fE+UDR1SOfX6tBPK7wTYUuy8Z+0=
+
+Name: res/drawable/shape_edit_focus.xml
+SHA-256-Digest: YoSdeyKSdVnXP6rxCwnSs4pQgKqq35b1rvqTTtJFdsA=
+
+Name: res/drawable/shape_edit_normal.xml
+SHA-256-Digest: fs9OGDk5WgBYIDH3SOMGThtJvpYsQ01sjLWD1LW/lL4=
+
+Name: res/layout-v21/notification_action.xml
+SHA-256-Digest: 3kZfrs1zavlQJ5Kf810rt+U9ph6nZXMUmwvOLkvRkLk=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA-256-Digest: WSdLOF3yKu8KpFfCX5dR2/jhAnjhSMqTHQgsIMpHTV0=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA-256-Digest: CNiHzRLuG4OWcCWVIxBiA50h8nu1J6hlLTcZUmK52hs=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA-256-Digest: G3Pr3TaES87/Kh7XQsMGm7y+5nOCxZlwr5ZSDvPIZDM=
+
+Name: res/layout/aal_setting.xml
+SHA-256-Digest: Lq1NTPvnKfHJXlLOepLTFtxxtVnlknLP8W99uCrqoWw=
+
+Name: res/layout/amr_wb.xml
+SHA-256-Digest: /hHgmpXcRhcS7yyQ3bxKC9XqqgnWhQ+h62+FU1o3qbg=
+
+Name: res/layout/ant_tuner_debug_bpi.xml
+SHA-256-Digest: xC3UnFAX8nocrWApC0Cpnu8CBqI3ovhtnRJcr/3+jaQ=
+
+Name: res/layout/ant_tuner_debug_bpi_row.xml
+SHA-256-Digest: q5CTxG6XesuQvfTIUTUvZ8+z+pNOF52f4BTn63HI1o8=
+
+Name: res/layout/ant_tuner_debug_dat.xml
+SHA-256-Digest: +G+P5Qu6ntvBKf6drdQBH35yQuxCh6WrSIyKiKxOEP0=
+
+Name: res/layout/ant_tuner_debug_mipi.xml
+SHA-256-Digest: 469nCiuT1ymSY17EP2r8/MXoqLZptpoysGti73SCBk0=
+
+Name: res/layout/antena_test.xml
+SHA-256-Digest: i3BbBaT4KfE28l/tPPaxobC/2/PmoKCwzAWca648MSM=
+
+Name: res/layout/antenna_diversity.xml
+SHA-256-Digest: hB+7xSUrYKRFP3h7uiN3hOuX8pS0AH0X6ZFyDkRkvrs=
+
+Name: res/layout/aoltest.xml
+SHA-256-Digest: OAZNgNeYaBmfYUsD7FedOy3mO7YbndsY/M8AwQT0ryQ=
+
+Name: res/layout/aosp_presence_listview.xml
+SHA-256-Digest: D5VFklO73zQd5OWu9JFCA6+nLOKHJpC6qREYpVgZX1w=
+
+Name: res/layout/aosp_presence_listview_item.xml
+SHA-256-Digest: ZdH5MHiylLZY1YH0Rd/QZNhqd/i9A+SXuhcrROHiEbw=
+
+Name: res/layout/apc_fake_info.xml
+SHA-256-Digest: m6ykC47QW4kjSDcU8NVeise9MwEi/Xp7pIw4pRKUqMM=
+
+Name: res/layout/apc_feature.xml
+SHA-256-Digest: lV+KUTP+dfxHJ01CZy5ykFo/AcRumIKFIEkQHJVuYuk=
+
+Name: res/layout/apc_feature_sim_type.xml
+SHA-256-Digest: JTs/Ax7KudrzJWKnq8edwTZqnTglcPo9Ggem2BFbUO0=
+
+Name: res/layout/atci.xml
+SHA-256-Digest: P5XI3lE58bts+tkBfwulIhqLtXv1yKGu6ka79dbtHnE=
+
+Name: res/layout/audio.xml
+SHA-256-Digest: Kej1HMhGycuhfnsg0WmqpWX4O22c98NfNRtoLzGYzhc=
+
+Name: res/layout/audio_audiologger.xml
+SHA-256-Digest: Y5vyoPOVHsG1G97neB8BUQafDhb62XrhovRrwugpRfg=
+
+Name: res/layout/audio_debuginfo.xml
+SHA-256-Digest: HVLZESALaSD1ytfBsbNEbApB796CDzbQUaVvxjhU0f4=
+
+Name: res/layout/audio_debugsession.xml
+SHA-256-Digest: ClfeODY7G/H2yPaKBGd1eJ0P0ed3h1NDL6yqluzTdtE=
+
+Name: res/layout/audio_modesetting.xml
+SHA-256-Digest: MrV+RaUo+Yl7ulkOSKpu6aBPMO9LUYqEWrDNEHJHhCY=
+
+Name: res/layout/audio_modesetting_enhance.xml
+SHA-256-Digest: KJ0vvF7/2JwMJQk35KRF+BMj1JS5AyAJgFpXIT7cJBQ=
+
+Name: res/layout/audio_speechenhancement.xml
+SHA-256-Digest: cvilrpzC8pD+nsZznUX5xuwMBOca8PoJsLU2RYo9S5A=
+
+Name: res/layout/audio_speechenhancement_entry.xml
+SHA-256-Digest: gTSmO9+nTUvpZWKyb+qztoglzI1emwtTn0EoA9YgLh0=
+
+Name: res/layout/audio_speechenhancement_new.xml
+SHA-256-Digest: p8bB+DNfL1mpQIC6cjg3kbBu5JJHJ1cp3xEWaSAlV78=
+
+Name: res/layout/audio_speechloggerx.xml
+SHA-256-Digest: iTRnIG8P7UARZksfiGqsapBD1lIfeQpYtxw5QrkgSYU=
+
+Name: res/layout/audio_volume.xml
+SHA-256-Digest: ON5B7kaqR98CAon5//kD7zEA6RSle36s0zFm62RbKik=
+
+Name: res/layout/audio_volume_item.xml
+SHA-256-Digest: k09AvGHTPvo5zF88A3eKK6lP38pFuYoG+oXZoGHA9ns=
+
+Name: res/layout/auto_answer.xml
+SHA-256-Digest: ZRbNFb8rQcDCpAyXvzn+AhZiyygKfjCkRUyoz9mQ9yU=
+
+Name: res/layout/bandmodeselect.xml
+SHA-256-Digest: zL6l0OtumBztU7vPnOdPmcn/y9ZkhkJHbKPv2ALL8zs=
+
+Name: res/layout/bandmodesimselect.xml
+SHA-256-Digest: f3H7caEJcmHrunmMR0ZjugXJIyDp+WWCDl5BBdr1UNY=
+
+Name: res/layout/base_listview.xml
+SHA-256-Digest: fECbyFpTsQ/i5tZWk4T3slQg0A3wKvqtTbeXc4U96/Y=
+
+Name: res/layout/battery_charge.xml
+SHA-256-Digest: oIefFKB5wngElp9xm9qCFC7vYqVpL4gyg+llgCvKop4=
+
+Name: res/layout/battery_log.xml
+SHA-256-Digest: g6tOuKaJwSB9hYA0PKX8gSEsCltMgDl3ctQxj8MgXHc=
+
+Name: res/layout/bt_ant_swap.xml
+SHA-256-Digest: CK0FHIcQB8y7ZiwjDZ29wn6oZUQ9fmCUXMOe/dvF7HM=
+
+Name: res/layout/bt_le_enhanced_test_mode.xml
+SHA-256-Digest: 6TAElnFoxJJ3M8hjMhGLNur5dii4ekiEb7VWDlcLS8A=
+
+Name: res/layout/bt_le_test_mode.xml
+SHA-256-Digest: vaN8KoVI+Ym5o2rLeUkXKGN0PyA2OP/svaV1Yt8+jfU=
+
+Name: res/layout/bt_list.xml
+SHA-256-Digest: ON5B7kaqR98CAon5//kD7zEA6RSle36s0zFm62RbKik=
+
+Name: res/layout/bt_no_sig_rx_test.xml
+SHA-256-Digest: jXiZyF2nPsWHsxrn49it3L6/4RJdEtiy/F4sPm6hJ0Y=
+
+Name: res/layout/bt_power_set.xml
+SHA-256-Digest: XGcdrj/kjuYAE0nu4SGv4Uo+kRdk2TSj5bMY9UHXqXs=
+
+Name: res/layout/bt_relayer_mode.xml
+SHA-256-Digest: CSbHehXCyAcXlXIGH1s9h4hjzcIqLg3sxO8RY+zqML4=
+
+Name: res/layout/bt_test_mode.xml
+SHA-256-Digest: yDLmLdehMdGwvF7DPLu0+/lVK4jrnzByiEBVTmUJF+c=
+
+Name: res/layout/bt_test_tool.xml
+SHA-256-Digest: +7akh//WmRa8i8TV0Qe70DilTF3QwsemcVSJJmGXWhs=
+
+Name: res/layout/bt_tx_only_test.xml
+SHA-256-Digest: Ie1e0Q6g5AffwU0CrL6kr+qFFsovppuTnebFdT63/N0=
+
+Name: res/layout/bt_tx_tone_test.xml
+SHA-256-Digest: i2/jGBVqGQFxMWoP4LmlkA22meC2tiEb+lntr9aaT0w=
+
+Name: res/layout/bypass_settings.xml
+SHA-256-Digest: YYPgLr0tUoO8awTRi7/vFMa+ofmc5OKsKOi+/hK17XY=
+
+Name: res/layout/carrier_express_content.xml
+SHA-256-Digest: vGEjpNymlimiljVZgSpo+iC4xwQdx4yb3WOIftLqM4o=
+
+Name: res/layout/ccm_hopping_test.xml
+SHA-256-Digest: J7q0q60qnR+CgfBR13ddaZgz8wcrTo63goPWlTr56UM=
+
+Name: res/layout/cdma_info_entry.xml
+SHA-256-Digest: mlP6GOuDzdIBI89yX0sYt/zw+DRCEx7lBMUR2QDUhm0=
+
+Name: res/layout/cfu_activity.xml
+SHA-256-Digest: 5NLSV0886VEzZrujkiEbt3GjzSTUJ6jKOmYSSQK2hQg=
+
+Name: res/layout/channel_lock.xml
+SHA-256-Digest: AnHxWC5Mc/FXaoXPwdONtjxDqzAYGvFSp3wJ9IMJhX4=
+
+Name: res/layout/clk_quality_at.xml
+SHA-256-Digest: tHpOaIwyUgh7xr2bmO5CK8oozYNmX3dxpnq5LPHxbYA=
+
+Name: res/layout/clk_quality_at_curve.xml
+SHA-256-Digest: Do4Uv5A8FnQ4yjTz8MsszIbnza1VR4lZJqqH2cymvbQ=
+
+Name: res/layout/clk_quality_at_password.xml
+SHA-256-Digest: O0IRjdtR4cpBIYuBlSu1s6YFjgHtVZP9x3p4LeFqzx0=
+
+Name: res/layout/clk_quality_at_result_entry.xml
+SHA-256-Digest: qmYy/aO4pCTjN6hRegJr5iTbIhqr3SoE772tz1qMH7U=
+
+Name: res/layout/clk_quality_at_result_format.xml
+SHA-256-Digest: ANWn32Oi30GyfkThhKqi4ZGCRdu29+FDXnGsp7dj7w8=
+
+Name: res/layout/component_select.xml
+SHA-256-Digest: 53u8TvYfcq4ZY/H/ZQd80M/5oNBV84JBbimeU62MkHc=
+
+Name: res/layout/connsys_patch_info.xml
+SHA-256-Digest: FwXICYOTrnBd4Er/I87gVKgmxyeu9DpP5NFAiE4MBbo=
+
+Name: res/layout/cs_reevaluation.xml
+SHA-256-Digest: c8iYQXpgFklje0xa9qVorSxwDMrbINPtwS9iKp16ks8=
+
+Name: res/layout/ctiasetting.xml
+SHA-256-Digest: S5Mbx6CJF2s07FYgXDrUP3mX7bqQCj5vyP9rE4VZMlg=
+
+Name: res/layout/cw_test.xml
+SHA-256-Digest: oKtG0syoUGQ2iU9LG0dj788iQFKOJ6HErBTmxqiwgL0=
+
+Name: res/layout/data_mtu.xml
+SHA-256-Digest: NOqDPU27F3Iw7lPc/K1vNrXrd4iSBDswmJ73jWLp//Q=
+
+Name: res/layout/data_network_slice.xml
+SHA-256-Digest: zKM8+CXgRpa3Ez9ib8v73hsuvzBabm8+43wPhjVblYw=
+
+Name: res/layout/dcb_calibration.xml
+SHA-256-Digest: Ta+sUuydy8EbYrSTOQmVIexoDu6urlXDBumSfC8PHoM=
+
+Name: res/layout/desense_at.xml
+SHA-256-Digest: NeL2Zhs/gCOETm3vt4Hak19NkOQYo9JvpEZvd65lsRU=
+
+Name: res/layout/desense_at_api_test.xml
+SHA-256-Digest: +TIS40u+TDBGMKjOUVfU1XOx3P3furOk7zyZjLDzlwc=
+
+Name: res/layout/desense_at_api_test_result_entry.xml
+SHA-256-Digest: 08kRZdOiw4KJ9K6Hli6nRtELrVVaJ8FVAlzfUDv3wv8=
+
+Name: res/layout/desense_at_band_detail.xml
+SHA-256-Digest: VMdiwGz68tWkQ1H5RxbQqFQg5mEi+kVwxPmC8kjBiL0=
+
+Name: res/layout/desense_at_band_entry.xml
+SHA-256-Digest: mQ5X+eHZOpcZ2QPJEtz3RPkf1smeOX2sCjjcpSrDyKA=
+
+Name: res/layout/desense_at_curve.xml
+SHA-256-Digest: z1IGYZmLKbtogfzTBDX7XBdfNgmCF0qBESiThULMqdU=
+
+Name: res/layout/desense_at_cw_band_sel.xml
+SHA-256-Digest: v+6loM+0ee4myYq4x+KGE74kbl+VNg2iY0L55MJUhDs=
+
+Name: res/layout/desense_at_history_data.xml
+SHA-256-Digest: j4BxKEp8hL9yZJukrvv3V4dcGVyn4z9viG+iTs0VkoM=
+
+Name: res/layout/desense_at_history_list.xml
+SHA-256-Digest: XnpE+GZ5DRRV2VBd3GxhVVmwpHqaot7z4dVmNUMzqzs=
+
+Name: res/layout/desense_at_result_entry.xml
+SHA-256-Digest: 122W2TXy7/ni3V+tJfVtEijYHOzTEWxTfLgyJNh+3nw=
+
+Name: res/layout/desense_at_result_format.xml
+SHA-256-Digest: 04vS4CtJ3ZPAHLmJytYGKLyDJHCoWP3yQVFk12Vqrq4=
+
+Name: res/layout/desense_at_rf_config.xml
+SHA-256-Digest: JtCJ7RxPFZu9FUwkvTfvfDIDCzudvWmhgGGWgIKLn4g=
+
+Name: res/layout/desense_at_signal_band_sel.xml
+SHA-256-Digest: +1nVbezRTevHGaf80r5UNtwA4xr7SY0wv8QSDUgN42s=
+
+Name: res/layout/desense_at_surface_view.xml
+SHA-256-Digest: ojK1uYFmHBV/uXtodahBel5bnJPFwXY89Nim1lIy1FE=
+
+Name: res/layout/device_register.xml
+SHA-256-Digest: 9qkZh4SEf6Z/4p5PyW1nKTqAHPxEbWLSO7Eg2m/RFKw=
+
+Name: res/layout/diagnostic_monitoring_setting.xml
+SHA-256-Digest: zf+oACidWHk0WOTyIfg+3guMarVg6X2VlljNlSpNMso=
+
+Name: res/layout/dsda_floating_widget.xml
+SHA-256-Digest: zUWgXKI5qUn573TQEsI8clAqr5xbwEmPi+MrcX+f+GE=
+
+Name: res/layout/dsda_monitor.xml
+SHA-256-Digest: URVZVGtWcYHJghOxNWWb5xZu0zlevtqglheGy91sq+0=
+
+Name: res/layout/dualtalk_networkinfo.xml
+SHA-256-Digest: zddt6TlsisezIjAQL7/y8dqosh2iiaFumRFSP2QG2t0=
+
+Name: res/layout/dyn_debug_ctrl.xml
+SHA-256-Digest: v+xVH2asXM4byZWUoncs3M8NGJQv5y8H1KwtaHHbw5w=
+
+Name: res/layout/ecc_num.xml
+SHA-256-Digest: 298x79Faln9ZrdUWgiXHHiXgk4QyA8H2oH7Pl0jFRss=
+
+Name: res/layout/ehrpd_bg_data.xml
+SHA-256-Digest: 7LJPbLVP3jkNDr7kAfAb+XNlivSBP395VEYhQUcJ7bQ=
+
+Name: res/layout/em_info_entry.xml
+SHA-256-Digest: 3MgH6v8dRp4L9sEQOmaU54Xi8JG5D5tP9s+uGs+oNdc=
+
+Name: res/layout/em_mcf_config.xml
+SHA-256-Digest: 7V8KhDkNlybzqf09FXo5Kea/VNOdiRCoV/9MCpD+a80=
+
+Name: res/layout/em_mcf_config_for93.xml
+SHA-256-Digest: JphEy2aeoFweJm2hZrDEJjEJWAP3IVXhYNKzwfbPABM=
+
+Name: res/layout/em_mcf_config_for98.xml
+SHA-256-Digest: BLVJzoeNIJqjDiWDmROmhRViSeNh+FqrrNBqJx+W1lU=
+
+Name: res/layout/em_mcf_file_row.xml
+SHA-256-Digest: oCzTVHHeVUPeucZ4A1slC5u0DYOTwYKzgUKoCrvopio=
+
+Name: res/layout/em_multi_input_layout.xml
+SHA-256-Digest: QRPMnjx5SVvgDlXa3o+mRvRqErwWu3D6lZP5eAyosrw=
+
+Name: res/layout/em_muti_info_entry.xml
+SHA-256-Digest: 5eobmaNmaqgxjjc03KJplrbKgnok5ec/lHxUBv/aKWY=
+
+Name: res/layout/epdg_certificate.xml
+SHA-256-Digest: GfgBb1GUdYDiftUlyUTLDWm0sSW8LEKW15MtLJ5Iaek=
+
+Name: res/layout/epdg_config.xml
+SHA-256-Digest: FQgXO7s6qipqolSGUm8JDM52B6H+KPS1CDaycj/VhMk=
+
+Name: res/layout/epdg_emergency.xml
+SHA-256-Digest: b7ahv5G3VYFviCO9KiMs7e3A9uWtFLP+zI6fEM8kSX8=
+
+Name: res/layout/epdg_general.xml
+SHA-256-Digest: XZ2CfPUl9HInAZ2apB5AysnuE5UOQwlQ6Sw2Teoei7Y=
+
+Name: res/layout/epdg_general_dialog.xml
+SHA-256-Digest: Km/2kGNgiSi0UN0Y62pbrrwP7Bd/VmHVHWYljStYnJQ=
+
+Name: res/layout/epdg_other.xml
+SHA-256-Digest: PqtN4R2B//B9Zft/9mbPAmy0N2eTS2NvzpkMX0xA1fQ=
+
+Name: res/layout/epdg_reset.xml
+SHA-256-Digest: yIg6+OX0imIZfgIVqlsuS6Lvj7VmgLbAc4KXLishRMI=
+
+Name: res/layout/epdg_sim_select.xml
+SHA-256-Digest: JTs/Ax7KudrzJWKnq8edwTZqnTglcPo9Ggem2BFbUO0=
+
+Name: res/layout/epdg_timer.xml
+SHA-256-Digest: 67VcJeVGVEclOiolHuYhPe/bWLWeQrxv5y1x2FAPxek=
+
+Name: res/layout/fastdormancy.xml
+SHA-256-Digest: gbHsVPkJRln4p6jHxLta4pKJ1hMenrw9EqrYhv0eedE=
+
+Name: res/layout/fastdormancy_config.xml
+SHA-256-Digest: pDaGGtTWNT5qcDoOVARby1hZOfmzC6Tme3hOC4cc9Rw=
+
+Name: res/layout/force_tx.xml
+SHA-256-Digest: Cr5ew1nrFpKmkL176P/ubaePUw7RLKsC27BjHHAdyKs=
+
+Name: res/layout/force_tx_95.xml
+SHA-256-Digest: v37uaDUZZMhpigN30EHQCO/DKfFtqieHg3Cxxcnfg0o=
+
+Name: res/layout/force_tx_97.xml
+SHA-256-Digest: m+cGWRp6u81RFA4HXMNuvR/Kf7ZRsIYkinxnQBnKOtA=
+
+Name: res/layout/gaming_gwsd.xml
+SHA-256-Digest: y3Ar9oYuGPy0laq9U/lyUERDJoQXnMsbEoP+n9g7XIc=
+
+Name: res/layout/gaming_gwsd_root.xml
+SHA-256-Digest: Js0Kk1eea38CUESj7R8wvJyKrmAdNOzd/C8Os28Cb5M=
+
+Name: res/layout/gprs.xml
+SHA-256-Digest: FiKAnIMrtXUv4r2ivtOreBm6Vh0T8GBhp+CiyKrolI8=
+
+Name: res/layout/help_page.xml
+SHA-256-Digest: 1Ve63x7R/fpGm0AVoaOyBgwPJgnR2OImUO9vkayyyJ8=
+
+Name: res/layout/hqa_nfc_card_emulation_mode.xml
+SHA-256-Digest: V0ZNNBgF0zIAQ8AUBQPCwvpUY7NvqNWYhdzFusLxkEQ=
+
+Name: res/layout/hqa_nfc_function_read.xml
+SHA-256-Digest: SE++/Z4XWIJy9JZ9NXkZBK0uKcMF4nOCPXkASEFVoGc=
+
+Name: res/layout/hqa_nfc_function_write.xml
+SHA-256-Digest: u/59kWGp3LLCgu8D2iIY2WX8avH2qIHibuVLngAmboQ=
+
+Name: res/layout/hqa_nfc_loopback_test.xml
+SHA-256-Digest: zkVYTL/60OQliiZKcneCMQlKK5yBl+NJ1wRaQmbcGeI=
+
+Name: res/layout/hqa_nfc_option.xml
+SHA-256-Digest: xOqn0MsuuJbzyngOU8Op/8mV6NKGmEeiuPk0IZK5u1U=
+
+Name: res/layout/hqa_nfc_p2p_mode.xml
+SHA-256-Digest: Su1qhReBz/tHXH/OBFEg8AqYiYtyowYdSq8o7faF9cM=
+
+Name: res/layout/hqa_nfc_pnfc_command.xml
+SHA-256-Digest: y2xneSIarA05noq7rrdjW9C7f16tPw6UcFuNaPMscRg=
+
+Name: res/layout/hqa_nfc_pollingloop_mode.xml
+SHA-256-Digest: BMCtACo2tvB/BY/MOUgoZ4p5ldk5dxXbK7BCg/O5Q5E=
+
+Name: res/layout/hqa_nfc_reader_mode.xml
+SHA-256-Digest: AAYfx+Sb4U1MateBDfQuTQ5PH6zBQx2bdvZNGX/hV9M=
+
+Name: res/layout/hqa_nfc_rw_function.xml
+SHA-256-Digest: 2vuwXEGtHdChigj3dGsKBYePpPngxm9ghtkbhBytC1Q=
+
+Name: res/layout/hqa_nfc_swp_test.xml
+SHA-256-Digest: pUYJ3XhEN+A5koIJeZKa9Bzbb18keqtBIlDYIHsvros=
+
+Name: res/layout/hqa_nfc_tx_carrier_signal.xml
+SHA-256-Digest: A0EIQROSdV9oW0Aw+o+7S2C2V/85BpjyXUpAmMnJRYs=
+
+Name: res/layout/hqa_nfc_version_query.xml
+SHA-256-Digest: BQF2LnZtkRCsk3jYxvAw8A2/mV/8/9wy/Wor63EU0sw=
+
+Name: res/layout/hqa_nfc_virtualcard_function.xml
+SHA-256-Digest: 2yXg1EScZ9j6IPg+0YkmBYexgUlqZR7ZTgDnYNCQ618=
+
+Name: res/layout/hspa_info.xml
+SHA-256-Digest: 2G6h9aTA2AdO4t34GRkJK2RQ9cvWpsKbBfqsl0Uc+Bk=
+
+Name: res/layout/iatype_activity.xml
+SHA-256-Digest: i1n0ChaaKj3hXc4qYcwhF4BStf5svrehLMOHh/vsvDU=
+
+Name: res/layout/ims.xml
+SHA-256-Digest: VjbO7ivW6C+TIk37YRFXIFOoz+vICb31kRLo7z//DPA=
+
+Name: res/layout/ims_config.xml
+SHA-256-Digest: BrfJDbvaIVwTItcgFgoU5Z/Uk4hvHC3e7SHKQjBV4fE=
+
+Name: res/layout/ims_config_view.xml
+SHA-256-Digest: QSFITEa4VmrHVF2Efe51Qtf9ZkbftxR9R2DaUIBqIXU=
+
+Name: res/layout/ims_dialog_config.xml
+SHA-256-Digest: z0/5Ur3HvM5mJtoMf0OVW/phnmQ4TU8s+EfLQQh4b5g=
+
+Name: res/layout/ims_setting.xml
+SHA-256-Digest: /g5RJE2V39S02QCKwi/N6gHQsWO6k1AouJE6Gz+fJVo=
+
+Name: res/layout/io.xml
+SHA-256-Digest: 1tt0Mjj5MPY2avMQ5v/R0b8XneXDjTipRAMi3eL6zRM=
+
+Name: res/layout/iot_apn_config.xml
+SHA-256-Digest: d3sHv6azMx9Zj1e9J6jb28mMcpZOH7b1EiCQnBPB+h4=
+
+Name: res/layout/iot_config.xml
+SHA-256-Digest: DbTudWSixSQzCwp2opxMbaUKX3fjZiCIMWnpZTQxhpw=
+
+Name: res/layout/iot_et_dialog.xml
+SHA-256-Digest: k++KlwITj1rqvdaTMo24NPTElGP7KJwUQYyOqFME/LM=
+
+Name: res/layout/iot_spinner_dialog.xml
+SHA-256-Digest: x+owGNoLqEHYMBRjUvn1uDIWrBMvfPbYbfhVzlbhpZE=
+
+Name: res/layout/iot_video_profile_row.xml
+SHA-256-Digest: 1RrSNE9N133dVvmlnAjx0p3KnDWNAKQbiOssGPKN3q4=
+
+Name: res/layout/iot_vilte_config.xml
+SHA-256-Digest: WODce1dM7Xpc96lG7JDVNK7mrxlk5F6qZgk0esFC4YM=
+
+Name: res/layout/iot_wfc_config.xml
+SHA-256-Digest: Z5KWSDaBRI34IG5ELhbxTeAuLIAFpcCaiVOFs+Q5nk4=
+
+Name: res/layout/iot_wfc_row.xml
+SHA-256-Digest: GdbvUqwgNXOxprqUCUpI93nuCMZz0JIqyCCkcGkPcUA=
+
+Name: res/layout/iot_xcap_config.xml
+SHA-256-Digest: JZNOSRzplNY+PY1Az4OQoVTdGzYeifQGGqUby+S34Ao=
+
+Name: res/layout/iot_xcap_row.xml
+SHA-256-Digest: up0ggevJ1OUCPEBOcjCLlCjTP9mxciYyu8XvNCVA8eM=
+
+Name: res/layout/item_menu_list.xml
+SHA-256-Digest: Avrn6JYZzh/psZ/S0ODDPeBv0aMaqeax+bp9P5QJmSM=
+
+Name: res/layout/low_power_debug.xml
+SHA-256-Digest: 7FV8i6bsTqHR7rSTIMZRhDS1vIyRZhTXZvsb+yyUEWY=
+
+Name: res/layout/lte_ca_config_activity.xml
+SHA-256-Digest: 89n6QamJDdv7JHQqcyPz2UaM9TPmdFUqJ1AKEWF3Yqg=
+
+Name: res/layout/lte_hpue_configure.xml
+SHA-256-Digest: S/F0hSDb+aokl0uS/BgmYAUgIscYy0aLrrt2cW85Ub8=
+
+Name: res/layout/lte_rx_mimo_configure.xml
+SHA-256-Digest: 4zZUf3Uqs/Joawj26GT/LZIkh7TmH4zbHi7IkModnus=
+
+Name: res/layout/lte_rx_single_band_setting.xml
+SHA-256-Digest: 9MEQODWI4R2OKnQUvpMmBiivcsCU055w/ARdwxdxYwY=
+
+Name: res/layout/lte_tool_edit.xml
+SHA-256-Digest: zlzA4kNkmwIl830nr8d4C/PULoYjEhkAvoOrg51Ce5c=
+
+Name: res/layout/lte_tool_sims_settings.xml
+SHA-256-Digest: 1D7YgJYKj2XhRNNKey/QWTFfT8PqvnOPFwSVmh3JDUE=
+
+Name: res/layout/main.xml
+SHA-256-Digest: Yw84K25y9hZJh3BCwKPfbEoCN4KHzIQJGuLUp4hgoBg=
+
+Name: res/layout/mcf_adapter_fileinfos.xml
+SHA-256-Digest: qa9I0ACupNtA56gDMtsu7DaSZvVKulzoCfh02/D5Bng=
+
+Name: res/layout/md_em_filter.xml
+SHA-256-Digest: 4qByDPBFd2grrHhajeoH8brzi5KyHoqlNkff3E0Knlo=
+
+Name: res/layout/md_log_filter.xml
+SHA-256-Digest: Xyvl8a8QC8OpmNv+p0xPIjVlPBuUg7MLtomBZErbY0I=
+
+Name: res/layout/md_low_power_monitor.xml
+SHA-256-Digest: yqwFwJxASjkHxEKzElh53wXuTP+Ritt2qBJm1dz6hqI=
+
+Name: res/layout/md_sar_and_pd.xml
+SHA-256-Digest: vBwTh83pKUnEjYvXECeaxBoS2y76nGGYdWNbhwMESn8=
+
+Name: res/layout/md_thermal.xml
+SHA-256-Digest: wTXHU4jOaiSnAs6uhpfyxe/4JFOBsbiXvb5+GbAwa0s=
+
+Name: res/layout/md_tx_div_dual_polar.xml
+SHA-256-Digest: AEvF8+gTNhEITO3NqRMGfZG44ufX5SEpaQ8J62uSBf0=
+
+Name: res/layout/mdm_component_detail.xml
+SHA-256-Digest: hMf6GdgQBiMMPiA0PhadRQjhVO6KgIbPe9XzT1ldiKQ=
+
+Name: res/layout/mdm_diagnostic_info_curve.xml
+SHA-256-Digest: CbKGav8DRcUn5cyOOcrgtExgd3LBZ4DdxUY95VM+pgQ=
+
+Name: res/layout/mdm_diagnostic_info_curveex.xml
+SHA-256-Digest: rmtmp2X60M8mUI0IRLHtgab7mnpRE33qe0LXm3O1Um4=
+
+Name: res/layout/mdm_em_info_curve.xml
+SHA-256-Digest: XuIhvt/4Ssi+Z7OISD7p2/nPkGvbNPGlRtqnqPW0JMg=
+
+Name: res/layout/mdm_em_info_curveex.xml
+SHA-256-Digest: 30JJZc2UYVwpZiP0CNPfp0xCOL4x5FSsyItJNbucKec=
+
+Name: res/layout/mdm_sample.xml
+SHA-256-Digest: bBnhWURbCE/ua8AK3MTEvQEi/biHnoRO3BJhGmJ2opM=
+
+Name: res/layout/memory.xml
+SHA-256-Digest: CGBSawVMTCVH9kzjbabNWjNcN6oRNBgvCi0r62BSlo4=
+
+Name: res/layout/memory_tabs.xml
+SHA-256-Digest: DRvHZ7kxmmwwlqBO73c7wR0OsUecZJq5YOlspe4QUX4=
+
+Name: res/layout/mnl_config.xml
+SHA-256-Digest: 1MBBBdDQH9UEGAfinuWDeVwCgUft2MeIpzlH4LlO4wI=
+
+Name: res/layout/mnl_config_edit.xml
+SHA-256-Digest: Oi3Hms1dm2fX4aNPDHFofpJT7t6UciUzkEg1cktrS0E=
+
+Name: res/layout/mnl_config_edit_settings.xml
+SHA-256-Digest: Nu7nmftartNW7fd1JMvYH+LQErlqcJyrQ9cOnCBtaX0=
+
+Name: res/layout/modem_debug.xml
+SHA-256-Digest: THLnot0DohGTFGVUQfpjVGALMrpSsv9dBPQzmBqwwsc=
+
+Name: res/layout/modem_switch.xml
+SHA-256-Digest: ZmWl6u/PhqWlR3r4Kn2lMFRSzAOMalAraRZ6A2peCZ8=
+
+Name: res/layout/modem_test_activity.xml
+SHA-256-Digest: 0N9+VIqopOn4kqaa11LjWqDpDJ1qRVJJflyyBJg1A7Q=
+
+Name: res/layout/modem_test_activity_6589.xml
+SHA-256-Digest: URzaoG/97GyslTGDwRx2zGAFjHp1ndGmR7cQ9msDOrw=
+
+Name: res/layout/modem_warning.xml
+SHA-256-Digest: 9bNJzyKDFRm/pBERFQ6gTzNjr7Sf/CNPGZFR1A0NY2I=
+
+Name: res/layout/moms.xml
+SHA-256-Digest: cHGQgPDWRVI/aGPYkE8H8VWtSS1otyQdHAu1a8GgvB8=
+
+Name: res/layout/multi_sim_switch.xml
+SHA-256-Digest: EcT/22dIqafX3sqJ2TnkU3Ypp/gmtRBiRc55H7zkcwM=
+
+Name: res/layout/network_select_sim_type.xml
+SHA-256-Digest: JTs/Ax7KudrzJWKnq8edwTZqnTglcPo9Ggem2BFbUO0=
+
+Name: res/layout/networkmode_switching.xml
+SHA-256-Digest: DkX+pNYEDpSe7XIDRhuu8goL6CSEjbJ0qwe5MjVOR+w=
+
+Name: res/layout/noise_profiling.xml
+SHA-256-Digest: ZX0tapXzhuHjsHUtrd0cU1dgrCjA4Ya+EsMIE1vsf4I=
+
+Name: res/layout/noise_profiling_band_config.xml
+SHA-256-Digest: 1dYCv+9OEqHGM8wgr8s9I3WTdN7AbdTAN7ItdVrDLIA=
+
+Name: res/layout/noise_profiling_band_detail.xml
+SHA-256-Digest: nZHrN/UsOn0bBdMEeVA89rcwkZjUr6IYBCXtAdTxLIk=
+
+Name: res/layout/noise_profiling_band_entry.xml
+SHA-256-Digest: F98vprC3fRbHUFVMlVQG+vm+aK0TbHgRw2ENnqyU2dQ=
+
+Name: res/layout/noise_profiling_rat_list.xml
+SHA-256-Digest: xqsEhQw7WdDaPU+yH7gOhupDOYhyWUS8Ba3keL6rsnI=
+
+Name: res/layout/noise_profiling_result_entry.xml
+SHA-256-Digest: 0gIP6849yHSqEH1gs3+THpTD8mpJvoLDMsxOFEYgSWE=
+
+Name: res/layout/noise_profiling_result_format.xml
+SHA-256-Digest: kQpy0sL8CBzrn51s5DPh8bl4pnBjgmklA7Nt386V4U8=
+
+Name: res/layout/noise_profiling_settings.xml
+SHA-256-Digest: TmBz7wiAh/Oxtt/BnrpBU7O08Weo7/XZPPpppOuyB2U=
+
+Name: res/layout/non_sleep_mode.xml
+SHA-256-Digest: RY/L+QUtEq1cqzlSMvLH6MpidktNe3L+ISb0nmDORNY=
+
+Name: res/layout/notification_media_action.xml
+SHA-256-Digest: 9pwDk8Al1mGJ5xZ1H6zPj9utBRO4lL98kP2m5rAsZTs=
+
+Name: res/layout/notification_media_cancel_action.xml
+SHA-256-Digest: VPQxWDdC1QrxNIE9Gmkz9G8VA3tEsbPa9zUGk9P6434=
+
+Name: res/layout/notification_template_big_media.xml
+SHA-256-Digest: xmgxBC4W8/RoF1aCH4c0kIr5lg1B0HDIX8w+cQ4Zkeg=
+
+Name: res/layout/notification_template_big_media_custom.xml
+SHA-256-Digest: hIUrbVRkMbkldKzDFd29SUmy9kRMmfSFugm9nNVFBF0=
+
+Name: res/layout/notification_template_big_media_narrow.xml
+SHA-256-Digest: hCveKqEuFZBezShoP4bKTI+4i/qxlq+TxgZcDt4tqB0=
+
+Name: res/layout/notification_template_big_media_narrow_custom.xml
+SHA-256-Digest: 2+A4F8oZh1jtzCG9yhwmD/oZMPcutZ4MU/JSHlMRP9E=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA-256-Digest: BEsNnvVvUt+OOOgq95rBBQ5yiaOociI/4r+JFK5g0xM=
+
+Name: res/layout/notification_template_media.xml
+SHA-256-Digest: dPvfpLvLUlszu3/Oy2wtS8N4Iqaj9l28K082PoU2iP4=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA-256-Digest: 3QQm2KBns7ozvjGLGRRw3igyHz/E0xKxX1/wpbyd1UI=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA-256-Digest: 31ZdPCG96cjOT6GDXVxipVhd3K5J9P4DlAurhBc4KDI=
+
+Name: res/layout/notification_template_part_time.xml
+SHA-256-Digest: JIbL9bVKdSRkLN2fci84VCEYsNnLV+yBThaNw5o6dbI=
+
+Name: res/layout/nr_config_activity.xml
+SHA-256-Digest: ImQhQ2yl5k2asVKek+4qrgqpl/LAQ4xfLHMz1gkUbw4=
+
+Name: res/layout/nr_map_config_activity.xml
+SHA-256-Digest: E1hlR7BxgFy1gcASEp94UEmpuMtgcKOjbRVZ+Amoxwg=
+
+Name: res/layout/ota_airplane_mode.xml
+SHA-256-Digest: ufsM3/leDGYwqf1JG/PVdrZigC1aXg2BDiTh1i05m5A=
+
+Name: res/layout/power.xml
+SHA-256-Digest: wrYRV3sOGGLp710459rVrv0opoVn5AUPJ6m0MRjMmWQ=
+
+Name: res/layout/power_pmu6575_tabs.xml
+SHA-256-Digest: D4GMvVNC9yWmwwogKQoO7lcHizFncsyvGp1TfoBLIN8=
+
+Name: res/layout/presence.xml
+SHA-256-Digest: ICsiOTBgfg47iQ615uxdy35y7HHKEq9qXVztiYmsnwI=
+
+Name: res/layout/presence_set.xml
+SHA-256-Digest: 9EDfXYzUzXTIBvpEY+2ap7pZfHzUh35qfscf/Hpy3O4=
+
+Name: res/layout/rf_desense_digrf_test.xml
+SHA-256-Digest: zHXjBC8ZWInpE64TFQxPlvJA189JH0im2bb6arULVcc=
+
+Name: res/layout/rf_desense_gsm_power_control.xml
+SHA-256-Digest: jsxoCc+caJFzwLzqJU4zwBgxHZtPvQq6saS1NSOb8QY=
+
+Name: res/layout/rf_desense_rat_list.xml
+SHA-256-Digest: VghjkeAo+Se/ll1wCmTGZzXKDk/biI+3kiRMWD1afg0=
+
+Name: res/layout/rf_desense_test.xml
+SHA-256-Digest: Avrn6JYZzh/psZ/S0ODDPeBv0aMaqeax+bp9P5QJmSM=
+
+Name: res/layout/rf_desense_tx_test.xml
+SHA-256-Digest: 7hySwWorGC1FzvkU87eM+mqAzig8AHJVWsd5KsHJhpA=
+
+Name: res/layout/rf_desense_tx_test_cdma.xml
+SHA-256-Digest: WgxnOjo1u3q2VowciM6n3ACdFt+MN12NVaSXLl65xgk=
+
+Name: res/layout/rf_desense_tx_test_gsm.xml
+SHA-256-Digest: R1dCoMed3QNsm3nokWaioPSip0WZSIY9M+wbedHy7Lg=
+
+Name: res/layout/rf_desense_tx_test_lte.xml
+SHA-256-Digest: n/prh7HhuiZllD6Y5WDVq3t4vwo2DWLTAd+OVe4xFIo=
+
+Name: res/layout/rf_desense_tx_test_lte_ca.xml
+SHA-256-Digest: HEdjLGrKhXC0RTpAZj0F3n9nuH6fkXXVcwr5WGWqjbU=
+
+Name: res/layout/rf_desense_tx_test_nr.xml
+SHA-256-Digest: zmBvr/bu8H5VWyKcD2JFB4NQeJ0Tcm3inkTrkG/XiGQ=
+
+Name: res/layout/rtn.xml
+SHA-256-Digest: Vf3ghq2vVlKGgXZz6J2sh3tCDbIqtlrxEz33344Us+0=
+
+Name: res/layout/rtn_info.xml
+SHA-256-Digest: rAQ1UgGUf85PYEY0uzPiVcZxv4cv33HLxPtWW1jqsrY=
+
+Name: res/layout/runtime_switch_config.xml
+SHA-256-Digest: QXi9UWnWAIc8zR4/Z9rLVX4Yvio5x42ZJ44TAxL6cNE=
+
+Name: res/layout/sbp.xml
+SHA-256-Digest: ntYIlr+SNtIrRtUcrc+pialdERqYyNHuuJD0SoMmY/4=
+
+Name: res/layout/security_status.xml
+SHA-256-Digest: AJeSkTBIuMq7OgOsEc/ZF0mZp2KKFgwZ2+OsUtopjjI=
+
+Name: res/layout/select_file_main.xml
+SHA-256-Digest: bBA4bcFH2oPaTVpK8oxL2xUjH0nbNaPeqOX0uBWJmS8=
+
+Name: res/layout/sim_switch.xml
+SHA-256-Digest: /LMmMSIpyRmvaIvF0ZNYiKCm1UFmhNVY/SANeEvBuL4=
+
+Name: res/layout/siminfo.xml
+SHA-256-Digest: yDRbpTxDMm1Inj9sA+eFTrbGtm+kuBzz8oQ0Gx/TlVE=
+
+Name: res/layout/smart_rat_switch.xml
+SHA-256-Digest: mneGFNHQn7eKXJLFZaTCVCS5Y5yzJu/nIS0r2bXrDk8=
+
+Name: res/layout/spc_send.xml
+SHA-256-Digest: dxJmfXtlEOZvUK1TzBa2o53t+zYmqL41chG3OvGlYpY=
+
+Name: res/layout/swla_activity.xml
+SHA-256-Digest: WGu8G8XeuJKUEQpeD3pDs+EZcbjijHUXD/r4Ai+JCx0=
+
+Name: res/layout/testsimswitch.xml
+SHA-256-Digest: Nmg441J7Tjbte+2WKrNJIgLxYcV1co09fOuWd2Xc9Us=
+
+Name: res/layout/u3_phy_switch.xml
+SHA-256-Digest: kK3VA2ws3ocpOhG/g58T8T7hMCqPzb33sjQ2gQxdRzM=
+
+Name: res/layout/uart_usb_switch.xml
+SHA-256-Digest: DZhA/9mCWgIarb1DrciXPzbwGeRe9a2qBVZA6+Qsw7I=
+
+Name: res/layout/usb.xml
+SHA-256-Digest: ZfTLmNvW6yr7OUYPbAnITBT4EfGFXp4pILhvM3lcxwM=
+
+Name: res/layout/usb_acm.xml
+SHA-256-Digest: MyaQbutXB0+F5oam0I0lrC6v+ZO3t5v3imbomQtxSio=
+
+Name: res/layout/usb_otg20_test.xml
+SHA-256-Digest: tkbclMn7myf/xlHVbR8QMzRih4PNI9XzZvWoD0Ovx5c=
+
+Name: res/layout/usb_otg_switch.xml
+SHA-256-Digest: YrFDEBioDl+RiPRoJFKgDKEw2JU9unEmz51yZTRBqfw=
+
+Name: res/layout/usb_phy_tuning.xml
+SHA-256-Digest: eNu/F88wYAs4u6YVXnfBBhJAzOABzloafAhj0aZk2wM=
+
+Name: res/layout/usb_super_speed_switch.xml
+SHA-256-Digest: Z/b2eQ6rrsPq8nWMJZi9T5ZrnmACTuqO6KlNa8hd3OM=
+
+Name: res/layout/usb_tethering.xml
+SHA-256-Digest: gA2bHrB9FPNZAgsuO5O0ZIFVCF4nDt2caVD7K+RAVJw=
+
+Name: res/layout/vilte_ims_framework.xml
+SHA-256-Digest: sSi79YblaawERg3zETlDkmufz5SD5yrw8CG/qGz/Yg8=
+
+Name: res/layout/vilte_menu_codec.xml
+SHA-256-Digest: vlkInKU1F2ATySAgOsdW2cGZRt5C2zPvA4TBE9QzyX4=
+
+Name: res/layout/vilte_menu_common.xml
+SHA-256-Digest: TLlLUruoE4kSKebN+t83ePuz7u+1mhqREitEzZDVbjI=
+
+Name: res/layout/vilte_menu_media.xml
+SHA-256-Digest: uY1i9gdKGQhgQXCct9+hRmqIq5ufvBTHloMQBgGxS/I=
+
+Name: res/layout/vilte_menu_operator.xml
+SHA-256-Digest: OWROLPJhcoNdAQdW8Hxh63aGfO+ioPyRUwFB1e9ybPo=
+
+Name: res/layout/vilte_menu_operator_entry.xml
+SHA-256-Digest: mckRoiIyH/8k7II3lhmQqQLigBtKoDugPesq29RrKPI=
+
+Name: res/layout/vilte_menu_select.xml
+SHA-256-Digest: D4DfVIU7Uen3d6M2jcJe+xA8SkpJL/eliTXhHsWwWss=
+
+Name: res/layout/vilte_menu_vt_service.xml
+SHA-256-Digest: 2pU5btdbyRekPH7+kOrexPS22x+ole7s5Ff0j3pna2s=
+
+Name: res/layout/vodata.xml
+SHA-256-Digest: ieOqx/MuH7om3qhuGVRdvVOWsR6gEyHd1J47hbIt1co=
+
+Name: res/layout/voice_common_setting.xml
+SHA-256-Digest: 9TVNYBqaLEZjYVbX9u0l2NfDN1lnvZrKUcp0TDL/48o=
+
+Name: res/layout/voice_list.xml
+SHA-256-Digest: ON5B7kaqR98CAon5//kD7zEA6RSle36s0zFm62RbKik=
+
+Name: res/layout/voice_wakeup.xml
+SHA-256-Digest: yqrkigbQWuni3dYzrxESLNpqP+o0zsko0fIbK2BtEcQ=
+
+Name: res/layout/voice_wakeup_detector.xml
+SHA-256-Digest: NLRNdFmR0YF7sEv5KkfAEsq4jp9H+O9INJVQzn1NKiY=
+
+Name: res/layout/wcn_core_dump.xml
+SHA-256-Digest: U2gtAvAI6EPDUYp908QQAERKziUdE5D4UIOFz28H26k=
+
+Name: res/layout/wfd_iot_property.xml
+SHA-256-Digest: 4uGh0QOA+yrfYC9aCMEwnhVv3U0XSab2hEZsPsoytOs=
+
+Name: res/layout/wfd_latency_profiling.xml
+SHA-256-Digest: TrGKBpNgOVTIoIgX00uAuX9a48lWd9hHoSPGCfzV8h4=
+
+Name: res/layout/wfd_list.xml
+SHA-256-Digest: ON5B7kaqR98CAon5//kD7zEA6RSle36s0zFm62RbKik=
+
+Name: res/layout/wfd_power_saving.xml
+SHA-256-Digest: /8FwsQwSZrpa1tGSfC4Rm+UBfg6jvhnrN7LzWctdQf0=
+
+Name: res/layout/wfd_quality.xml
+SHA-256-Digest: LAYYvww2pt7LgNLLRmtkZgJxDjlsOwiAB1Rn+TlFjRs=
+
+Name: res/layout/wifi.xml
+SHA-256-Digest: rdE6toMpG/OhaMsQoB8r//nHfkvhM4h6SXHwee3I+cg=
+
+Name: res/layout/wifi_eeprom.xml
+SHA-256-Digest: Y0VGgcN2iB+3gH+ss8tWO9w1rZzopU1mfYGqAG8Snpw=
+
+Name: res/layout/wifi_em_cfg.xml
+SHA-256-Digest: yyPfYy6Q74wsLef6Qut9y5x+YmvKUQ5FwQjvCqh1XNI=
+
+Name: res/layout/wifi_em_cfg_entry.xml
+SHA-256-Digest: 4l9HTjcp5civnB5TS7Pr1MiMtVjVQAttrr+4OYVJE0Y=
+
+Name: res/layout/wifi_mcr.xml
+SHA-256-Digest: r3ubruqWi1CyWcWTaZiXBfJv4nFbQW4AubEFf/lHAYI=
+
+Name: res/layout/wifi_rfcr.xml
+SHA-256-Digest: eXWY4Y4yIQTW3LrxE3/104EhIMBKHYurv1mz33PTSsM=
+
+Name: res/layout/wifi_rx_6620.xml
+SHA-256-Digest: 8MPqmsRGVaQ5Or6gsUgp8tL5G21Y175I8vZyt7WbNic=
+
+Name: res/layout/wifi_rx_6632.xml
+SHA-256-Digest: kHpTd+KeIYj57BujcFizNCvZtpBvxDoP+GSYoY6j/Z0=
+
+Name: res/layout/wifi_rx_format.xml
+SHA-256-Digest: TYzdOFlcbS3ScWp03g9i/IU/ufiaWZl9DxHQxpt4iXI=
+
+Name: res/layout/wifi_test_setting.xml
+SHA-256-Digest: p6bIWLuvu90q3/8yrKqTENQT42dTv3PF/890soJBdrg=
+
+Name: res/layout/wifi_tx_11ax.xml
+SHA-256-Digest: /zp7pkAzKTa4l+oNbDs1phsGtyYkn9T4GoWplQ1mH8g=
+
+Name: res/layout/wifi_tx_6620.xml
+SHA-256-Digest: cag9sXZb42H6YVtt1t2RbWdmCI+YloO0Pg95MLxyEig=
+
+Name: res/layout/wifi_tx_6632.xml
+SHA-256-Digest: cCacSNfSh4GLRsZ5V+QhHkKpLV6DyzQiQUxN9+g+Hmc=
+
+Name: res/layout/wifi_tx_format.xml
+SHA-256-Digest: gRU1DiErbUHXZ+0kJc3o7RuSa+RA3OCe/RJICScFO50=
+
+Name: res/layout/wificalling_config.xml
+SHA-256-Digest: FRP1Z3oD2AENJ97f2ZnUQiHM3WGgr0uX9bmDyo9b4w4=
+
+Name: res/layout/world_mode.xml
+SHA-256-Digest: TnPSVbdCqUQklgYkWXmtuF6Jex8atYzYdP5yhs8DWgI=
+
+Name: res/layout/xpxt_aging_test.xml
+SHA-256-Digest: 35W8Ec9vdYVkD15dsyiosge0Aa5CuZNlAsR8NVbUR5Q=
+
+Name: res/raw/point1.data
+SHA-256-Digest: QeUZkBdBT6pFXW78XBOSEVjZvXoeLyeOyZOZhF2ycuM=
+
+Name: res/xml/connectivity.xml
+SHA-256-Digest: ku7usQd0LTFd3EsDK7OtPlZcjtq9GSYd2mdh/6J7WD8=
+
+Name: res/xml/gsm_umts_options.xml
+SHA-256-Digest: mFII3zoBJS0sN+J2D+fD7j7G/qbnRXBMplbiOMpQF/Y=
+
+Name: res/xml/hardware_testing.xml
+SHA-256-Digest: /M/yCyCOBS34rS3n2FQACSl0haQEZWqjEwLk7jor1+w=
+
+Name: res/xml/hqa_nfc_main.xml
+SHA-256-Digest: KEccWdNuXIrcXeuZt5Jeg9Mm6ivHw8ConDYx+BlP7Qo=
+
+Name: res/xml/ims_config.xml
+SHA-256-Digest: DyEgHZWA/orrxDWgCwgKqYNmoCQsdxaoAotiShBe77I=
+
+Name: res/xml/location.xml
+SHA-256-Digest: tGZpCAzA6I0w92G7k0M3CT7mSCfwVgpRazAXbK2qu/I=
+
+Name: res/xml/log_and_debugging.xml
+SHA-256-Digest: P7Tk95ewS1gkxThKWE3sPixQ6echEQKbVyVotDX1p/Q=
+
+Name: res/xml/misc.xml
+SHA-256-Digest: D/sWLxgRtTNkVDQavQk9ntrKjBVP2Df5KeupHM4ewEc=
+
+Name: res/xml/others.xml
+SHA-256-Digest: 23caW4pz15U5tSaOwUmsRZgPNU3G1Sk+TKlCNH6hRsY=
+
+Name: res/xml/preference_debugtoolbox.xml
+SHA-256-Digest: zWR91MMTzNNvwDYhQfSMYHbZEA5zIu5+dJ7zEk/rI1g=
+
+Name: res/xml/telephony.xml
+SHA-256-Digest: PQBKXGrU4qVimSsY2GLytvzZLnwPgYTnYrKy7vznM0A=
+
+Name: res/xml/ui_customize.xml
+SHA-256-Digest: J/OldIEN3K2TGaSRe9fhc9bXlsovfMiSMrMW0UfocNA=
+
+Name: resources.arsc
+SHA-256-Digest: urpsBLk2muqwHhQ1sCzkHROpyZUzuhHr4lhtWq/9guI=
+

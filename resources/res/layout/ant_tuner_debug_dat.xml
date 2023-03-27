@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="8">
+        <TextView android:layout_gravity="center" android:id="@+id/dat_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ant_tuner_debug_dat"/>
+        <TableLayout android:id="@+id/TableLayout01" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_content_style">
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="30dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ant_tuner_debug_dat_status" android:layout_weight="4"/>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/dat_status_rgroup" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6">
+                    <RadioButton android:id="@+id/dat_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/ant_tuner_debug_dat_enable"/>
+                    <RadioButton android:id="@+id/dat_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ant_tuner_debug_dat_disable"/>
+                </RadioGroup>
+            </TableRow>
+            <ImageView android:contentDescription="@null" style="@style/list_spiner_style"/>
+            <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ant_tuner_debug_dat_index" android:layout_weight="4"/>
+                <Spinner android:id="@+id/ant_tuner_debug_dat_index" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="80dp" android:layout_weight="1">
+        <Button android:id="@+id/ant_tuner_debug_dat_write" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ant_tuner_debug_dat_write" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

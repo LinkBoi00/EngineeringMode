@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:id="@+id/FrameLayout01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/LinerLayout_pmu_info_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@+id/ScrollView01" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1">
+            <TextView android:id="@+id/pmu_info_text" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/LinerLayout_pmu_reg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/main_pmic_text" android:color="@color/black"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp">
+            <EditText android:id="@+id/pmu_addr_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/address6589_text" android:singleLine="true" android:maxLength="5"/>
+            <EditText android:id="@+id/pmu_val_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/value6589_text" android:singleLine="true" android:maxLength="4"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <Button android:id="@+id/pmu_get_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_get"/>
+            <Button android:id="@+id/pmu_set_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_set"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mt6333_layout_controler" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/mt6333_pmic_text" android:color="@color/black"/>
+            <Spinner android:textSize="12sp" android:id="@+id/pmu_mt6333_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:minWidth="90dp" android:minHeight="40dp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp">
+                <EditText android:id="@+id/pmu_addr_mt6333_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/address6589_text" android:singleLine="true" android:maxLength="4"/>
+                <EditText android:id="@+id/pmu_val_mt6333_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/value6589_text" android:singleLine="true" android:maxLength="4"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <Button android:id="@+id/pmu_get_mt6333_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_get"/>
+                <Button android:id="@+id/pmu_set_mt6333_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_set"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/sub_layout_controler" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/sub_pmic_text" android:color="@color/black"/>
+            <Spinner android:textSize="12sp" android:id="@+id/pmu_sub_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:minWidth="90dp" android:minHeight="40dp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp">
+                <EditText android:id="@+id/pmu_addr_sub_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/address6589_text" android:singleLine="true" android:maxLength="4"/>
+                <EditText android:id="@+id/pmu_val_sub_edit" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:hint="@string/value6589_text" android:singleLine="true" android:maxLength="4"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <Button android:id="@+id/pmu_get_sub_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_get"/>
+                <Button android:id="@+id/pmu_set_sub_btn" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/pmu_set"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:id="@+id/warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="1dp" android:text="@string/warning_text"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

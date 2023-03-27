@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/connsys_patch_layout" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+        <TextView android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/rom_patch_ver"/>
+        <TextView android:id="@+id/rom_patch_ver_tv" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/connsys_branch_layout" android:paddingTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connsys_branch"/>
+        <TextView android:id="@+id/connsys_branch_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connsys_branch_default"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/connsys_ver_layout" android:paddingTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rom_patch_ver"/>
+        <TextView android:id="@+id/connsys_ver_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

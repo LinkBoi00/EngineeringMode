@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/info_layout">
+        <ListView android:id="@+id/ims_category_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_mult_status"/>
+        <TextView android:textSize="16sp" android:id="@+id/ims_mult_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+        <TextView android:textSize="16sp" android:id="@+id/ims_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_status"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_ss_mode_hint"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_ss_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_ss_mode_xcap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_ss_mode_xcap"/>
+            <RadioButton android:id="@+id/ims_ss_mode_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_ss_mode_cs"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_ss_set_mode" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_pdn_set"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_ss_disable_hint"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_ss_delete_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_ss_disable_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_ss_disable_tag"/>
+            <RadioButton android:id="@+id/ims_ss_disable_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_ss_disable_del"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_ss_set_disable" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_pdn_set"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_ss_cf_num_config_hint"/>
+        <EditText android:id="@+id/ims_ss_cf_num" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="91"/>
+        <Button android:id="@+id/ims_set_ss_cf_num" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_pdn_set"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_hint"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/volte_set_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/volte_set_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/volte_set_off_string"/>
+            <RadioButton android:id="@+id/volte_set_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/volte_set_on_string"/>
+        </RadioGroup>
+        <Button android:id="@+id/volte_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_test_mode"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_test_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_test_mode_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_enable"/>
+            <RadioButton android:id="@+id/ims_test_mode_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_disable"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_test_mode_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_dynamic_sbp"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_dynamic_sbp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_dynamic_sbp_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_enable"/>
+            <RadioButton android:id="@+id/ims_dynamic_sbp_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_disable"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_dynamic_sbp_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_over_SGS_prefer"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_over_SGS_prefer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_over_SGS_prefer_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_enable"/>
+            <RadioButton android:id="@+id/ims_over_SGS_prefer_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_test_mode_disable"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_over_SGS_prefer_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_format"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_format" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/ims_format_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_format_none"/>
+            <RadioButton android:id="@+id/ims_format_3gpp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_format_3gpp"/>
+            <RadioButton android:id="@+id/ims_format_3gpp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ims_format_3gpp2"/>
+        </RadioGroup>
+        <Button android:id="@+id/ims_test_format" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_vdp_string"/>
+        <EditText android:id="@+id/ims_vdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="91" android:inputType="number"/>
+        <Button android:id="@+id/ims_vdp_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/volte_set_string"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+        <Button android:id="@+id/volte_call_setting" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</ScrollView>

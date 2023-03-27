@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/app_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:id="@+id/tv_mds_mtu_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mds_mtu_hint"/>
+    <EditText android:textSize="14sp" android:id="@+id/et_mds_mtu" android:layout_width="match_parent" android:layout_height="wrap_content" android:digits="0,1,2,3,4,5,6,7,8,9," android:inputType="text"/>
+    <CheckBox android:id="@+id/cb_mds_keep_mtu_after_factory_reset" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mds_keep_mtu_after_factory_reset"/>
+    <Button android:textSize="16sp" android:id="@+id/ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/mds_mtu_ok"/>
+</LinearLayout>

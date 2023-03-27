@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/button_start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_start" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        <Button android:id="@+id/button_stop" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_stop" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        <Button android:id="@+id/button_exit_total" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_exit" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+    </LinearLayout>
+    <include layout="@layout/noise_profiling_result_format"/>
+</LinearLayout>

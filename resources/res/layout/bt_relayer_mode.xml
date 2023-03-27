@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/bt_ant_swap"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_relayer_serial_port_baudrate" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <Spinner android:entries="@array/bt_relayer_baudrate" android:id="@+id/bt_relayer_baudrate_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="50dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_relayer_serial_port_number" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <Spinner android:entries="@array/bt_relayer_uart" android:id="@+id/bt_relayer_port_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="50dp"/>
+    </LinearLayout>
+    <LinearLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/bt_relayer_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_start" android:layout_weight="1"/>
+        <Button android:id="@+id/bt_relayer_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_stop" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

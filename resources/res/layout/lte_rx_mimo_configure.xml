@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/lte_rx_mimo_configure"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <CheckBox android:id="@+id/lte_rx_mimo_feature_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_feature_enable"/>
+            <CheckBox android:id="@+id/lte_rx_mimo_4_momo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_4_momo"/>
+            <Button android:id="@+id/lte_4x4MIMO_single_band_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/lte_4x4MIMO_single_band_setting"/>
+            <CheckBox android:id="@+id/lte_rx_mimo_4_momo_under_cca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_4_momo_under_cca"/>
+            <CheckBox android:id="@+id/lte_rx_mimo_ras_4rx_2rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_ras_4rx_2rx"/>
+            <Button android:id="@+id/lte_4RX_single_band_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/lte_4RX_single_band_setting"/>
+            <CheckBox android:id="@+id/lte_rx_mimo_ras_4rx_2rx_under_cca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_ras_4rx_2rx_under_cca"/>
+            <CheckBox android:id="@+id/lte_rx_mimo_ras_2rx_1rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_rx_mimo_ras_2rx_1rx"/>
+        </LinearLayout>
+        <Button android:gravity="center" android:id="@+id/lte_rx_mimo_set_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_ca_set"/>
+    </LinearLayout>
+</LinearLayout>

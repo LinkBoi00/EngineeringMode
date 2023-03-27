@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/content_iot_wfc" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_certification_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@+id/path_rgroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/ota_path_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/str_ota_path_default"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ota_path_default_hint" style="@style/info_label"/>
+                <RadioButton android:id="@+id/ota_path_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/str_ota_path_custom"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ota_path_custom_hint" style="@style/info_label"/>
+                <RadioButton android:id="@+id/runtime_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_runtime_path_98"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/runtime_path_hint" style="@style/info_label"/>
+            </RadioGroup>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+            <View android:layout_width="match_parent" android:layout_height="20dp"/>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/cert_select_hint" style="@style/info_label"/>
+                <Spinner android:id="@+id/op_select" android:layout_width="0dp" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:layout_weight="1"/>
+            </LinearLayout>
+            <EditText android:id="@+id/cert_input_et" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/cert_input_hint"/>
+            <View android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="30dp"/>
+            <Button android:id="@+id/cert_bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_apply"/>
+            <Button android:id="@+id/cert_ota_query" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_check_apply"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_opota_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/str_op_ota_title"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/opota_path_rgroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/opota_ota_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ota_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ota_path_hint" style="@style/info_label"/>
+                <RadioButton android:id="@+id/opota_runtime_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_runtime_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/runtime_path_hint" style="@style/info_label"/>
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView android:id="@+id/opota_scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <com.mediatek.engineermode.mcfconfig.McfFileSelectListView android:id="@+id/opota_listview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                <Button android:id="@+id/add_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_browse" android:layout_weight="1"/>
+                <Button android:id="@+id/remove_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_remove" android:layout_weight="1"/>
+                <Button android:id="@+id/reset_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_default" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="20dp"/>
+            <CheckBox android:id="@+id/resetmd_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/str_resetmd_label" android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+            <Button android:id="@+id/opota_apply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_apply"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+            <Button android:id="@+id/opota_check" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_check_apply"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_general_opota_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_gen_opota_title"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/gen_opota_path_rgroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/gen_opota_ota_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ota_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ota_path_hint" style="@style/info_label"/>
+                <RadioButton android:id="@+id/gen_opota_runtime_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_runtime_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/runtime_path_hint" style="@style/info_label"/>
+            </RadioGroup>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/mcf_general_opota_hint" style="@style/info_label"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView android:id="@+id/general_opota_scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <com.mediatek.engineermode.mcfconfig.McfFileSelectListView android:id="@+id/general_opota_listview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/add_general_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_browse" android:layout_weight="1"/>
+                <Button android:id="@+id/remove_general_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_remove" android:layout_weight="1"/>
+                <Button android:id="@+id/reset_general_opota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_default" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="20dp"/>
+            <CheckBox android:id="@+id/gen_resetmd_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/str_resetmd_label" android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/gen_opota_apply" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_apply" android:layout_weight="1"/>
+            </LinearLayout>
+            <Button android:id="@+id/gen_opota_check" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_check_apply"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_general_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_ota_title"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/gen_ota_path_rgroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/ota_ota_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_ota_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ota_path_hint" style="@style/info_label"/>
+                <RadioButton android:id="@+id/ota_runtime_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_runtime_path"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/runtime_path_hint" style="@style/info_label"/>
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView android:id="@+id/ota_scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <com.mediatek.engineermode.mcfconfig.McfFileSelectListView android:id="@+id/ota_listview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </com.mediatek.engineermode.mcfconfig.LinkedHorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/add_ota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_browse" android:layout_weight="1"/>
+                <Button android:id="@+id/remove_ota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_remove" android:layout_weight="1"/>
+                <Button android:id="@+id/reset_ota" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_default" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="10dp"/>
+            <Button android:id="@+id/ota_apply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_apply"/>
+            <Button android:id="@+id/ota_check" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_check_apply"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_raw_ota_title"/>
+            <Button android:id="@+id/ota_hw_check" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_check_apply"/>
+            <Button android:id="@+id/ota_hw_query" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_query_apply"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_general_title"/>
+            <Button android:id="@+id/ota_dump" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_dump"/>
+            <Button android:id="@+id/ota_dump_modem" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_dump_modem"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/ini_refresh_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/ini_enable" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_with_ini" android:layout_weight="1"/>
+                <RadioButton android:id="@+id/ini_disable" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/str_without_ini" android:layout_weight="1"/>
+            </RadioGroup>
+            <Button android:id="@+id/ini_refresh" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_refresh"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

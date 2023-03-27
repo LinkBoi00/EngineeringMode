@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/info_layout">
+        <TextView android:textSize="16sp" android:id="@+id/world_mode_current_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/world_mode_current_value"/>
+        <TextView android:textSize="16sp" android:id="@+id/world_mode_main_protocol" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/world_mode_main_protocol"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+        <TextView android:textSize="16sp" android:id="@+id/world_mode_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/world_mode_hint"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/world_mode_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+            <RadioButton android:id="@+id/world_mode_ltctg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/world_mode_ltctg"/>
+            <RadioButton android:id="@+id/world_mode_lttg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/world_mode_lttg"/>
+            <RadioButton android:id="@+id/world_mode_lwg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/world_mode_lwg"/>
+            <RadioButton android:id="@+id/world_mode_lwcg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/world_mode_lwcg"/>
+            <RadioButton android:id="@+id/world_mode_auto_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/world_mode_auto_switch"/>
+        </RadioGroup>
+        <Button android:id="@+id/world_mode_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/world_mode_set" android:onClick="onClick"/>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/world_mode_enter_hint"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <EditText android:id="@+id/world_mode_value" android:layout_width="120dp" android:layout_height="wrap_content" android:inputType="number"/>
+            <Button android:id="@+id/world_mode_set_value" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/world_mode_set" android:onClick="onClick"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/info_layout">
+        <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <AutoCompleteTextView android:id="@+id/AtComLine" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none|text|textCapCharacters|textNoSuggestions" style="@style/info_label"/>
+        <Button android:textSize="14sp" android:id="@+id/Submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/Send"/>
+        <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:title="@string/ATCI_title" android:key="atci">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.atci.atciActivity"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/BatteryLog" android:key="battery_log">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.BatteryLog"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/debug_utils" android:key="debug_utils">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.debugtool.DebugToolboxActivity"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/debug_log_ui" android:key="debug_logger_ui">
+        <intent android:targetPackage="com.debug.loggerui" android:action="android.intent.action.MAIN" android:targetClass="com.debug.loggerui.MainActivity"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/diagnostic_monitoring_setting" android:key="diagnostic_monitoring_setting">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.dm.DiagnosticMonitoringSettingActivity"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/dyn_debug_ctrl" android:key="dynamic_debug_control">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.dyndebugctrl.DynDebugCtrl"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/md_log_filter" android:key="md_log_filter">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.mdlogfilters.MDLogFiltersActivity"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/modem_reset_debug" android:key="modem_reset_delay">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.modemresetdelay.ModemResetDelay"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/modem_warning_title" android:key="modem_warning">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.modemwarning.ModemWarning"/>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/wcn_core_dump" android:key="wcn_core_dump">
+        <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.wcncoredump.WcncoredumpActivity"/>
+    </Preference>
+</PreferenceScreen>

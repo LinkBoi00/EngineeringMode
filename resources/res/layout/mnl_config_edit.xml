@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/mnl_config_edit_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_feature"/>
+            <EditText android:id="@+id/mnl_config_edit_name_et" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button android:id="@+id/mnl_config_edit_add_settings_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_edit_add_settings"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/mnl_config_format_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_format"/>
+            <TextView android:id="@+id/mnl_config_edit_format_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_ver"/>
+            <EditText android:id="@+id/mnl_config_edit_ver_et" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:inputType="numberDecimal" android:layout_marginStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_enable"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/mnl_config_edit_enable_rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp">
+                <RadioButton android:id="@+id/mnl_config_edit_enable_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mnl_config_enable_enabled"/>
+                <RadioButton android:id="@+id/mnl_config_edit_disable_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/mnl_config_enable_disabled"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

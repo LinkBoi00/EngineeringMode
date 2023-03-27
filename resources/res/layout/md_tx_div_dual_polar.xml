@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/md_tx_div_dual_polar_config" android:layout_marginStart="10dp"/>
+    <RadioGroup android:orientation="vertical" android:id="@+id/bt_dual_rg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginStart="15dp">
+        <RadioButton android:id="@+id/bt_dual_on" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/md_tx_div_dual_polar_on"/>
+        <RadioButton android:id="@+id/bt_dual_off" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/md_tx_div_dual_polar_off"/>
+        <RadioButton android:id="@+id/bt_dual_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/md_tx_div_dual_polar_normal"/>
+    </RadioGroup>
+</LinearLayout>

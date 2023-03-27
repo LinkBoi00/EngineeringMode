@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/column_lable" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/column_result" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_gps" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_gps_l5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_gl_l" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_gl_m" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_gl_h" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/column_bd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

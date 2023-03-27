@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/content_iot_wfc" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_opota_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/str_op_ota_title"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:layout_gravity="center_horizontal" android:id="@+id/op_ota_file" android:background="@drawable/edittext_background" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/add_op_ota_browser" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/str_browse" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="100dp"/>
+            <CheckBox android:id="@+id/resetmd_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/str_resetmd_label" android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+            <Button android:id="@+id/opota_apply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_apply"/>
+            <Button android:id="@+id/opota_clear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_clear"/>
+            <Button android:id="@+id/opota_query" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_ota_query"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mcf_general_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_ota_title"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:layout_gravity="center_horizontal" android:id="@+id/ota_file" android:background="@drawable/edittext_background" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/add_ota_browser" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/str_browse" android:layout_weight="1"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="10dp"/>
+            <Button android:id="@+id/ota_apply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_apply"/>
+            <Button android:id="@+id/ota_clear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_clear"/>
+            <Button android:id="@+id/ota_query" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_ota_query"/>
+            <Button android:id="@+id/ota_dump" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_dump"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

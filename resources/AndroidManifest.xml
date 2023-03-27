@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.mediatek.engineermode" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="31" android:targetSdkVersion="31"/>
+    <permission android:label="EngineerMode usage" android:name="com.mediatek.engineermode.permission.USAGE" android:protectionLevel="signature"/>
+    <permission android:label="RfDesenseService usage" android:name="com.mediatek.engineermode.rfdesenseService.permission" android:protectionLevel="signature"/>
+    <permission android:label="UCE" android:name="com.mediatek.uce.permission.RECEIVE_UCE_EVENT" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NETWORK_AIRPLANE_MODE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="com.mediatek.em.permission.LAUNCH_APP"/>
+    <uses-permission android:name="com.mediatek.atci.service.PERMISSION.START"/>
+    <uses-permission android:name="com.mediatek.presence.permission.PRESENCE"/>
+    <uses-permission android:name="com.mediatek.em.permission.LAUNCH_PREBUILD_APP"/>
+    <uses-permission android:name="com.mediatek.mdmlsample.START"/>
+    <uses-permission android:name="com.mediatek.mdmconfig.START"/>
+    <uses-permission android:name="com.mediatek.emcamera.permission.USAGE"/>
+    <uses-permission android:name="com.mediatek.sensorhub.ui.permission.USAGE"/>
+    <uses-permission android:name="com.mediatek.engineermodecmas.USAGE"/>
+    <uses-permission android:name="com.mediatek.carrierexpress.permission.USAGE"/>
+    <uses-permission android:name="com.mediatek.apmonitor.CONTROL_APM_SERVICE_PERMISSION"/>
+    <uses-permission android:name="com.mediatek.connectivity.permission.CDS_INFO"/>
+    <uses-permission android:name="com.mediatek.simrecovery.START"/>
+    <uses-permission android:name="com.mediatek.bluetooth.START"/>
+    <uses-permission android:name="com.mediatek.permission.EM_ACCESS"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.Manifest.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <protected-broadcast android:name="com.mediatek.engineermode.dm.ACTION_ENABLE_DM_LOG"/>
+    <queries>
+        <package android:name="se.nena.nenamark3"/>
+    </queries>
+    <application android:theme="@style/ThemeOverlay.Material.ActionBar" android:label="@string/app_name" android:name="com.mediatek.engineermode.EmApplication" android:allowBackup="false" android:extractNativeLibs="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <activity android:label="@string/app_name" android:name="com.mediatek.engineermode.EngineerMode" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:label="@string/help" android:name="com.mediatek.engineermode.FeatureHelpPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/BatteryLog" android:name="com.mediatek.engineermode.BatteryLog" android:screenOrientation="portrait"/>
+        <activity android:label="@string/GPRS" android:name="com.mediatek.engineermode.GPRS" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/non_sleep_mode" android:name="com.mediatek.engineermode.nonsleep.NonSleepMode" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.nonsleep.EMWakeLockService"/>
+        <activity android:label="@string/memory" android:name="com.mediatek.engineermode.memory.Memory" android:screenOrientation="portrait"/>
+        <activity android:label="@string/memory_title_flash" android:name="com.mediatek.engineermode.memory.Flash" android:screenOrientation="portrait"/>
+        <activity android:label="@string/memory_title_emi" android:name="com.mediatek.engineermode.memory.EmiRegister" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Power" android:name="com.mediatek.engineermode.power.Power" android:screenOrientation="portrait"/>
+        <activity android:label="@string/PMU" android:name="com.mediatek.engineermode.power.PMU" android:screenOrientation="portrait"/>
+        <activity android:label="@string/PMU" android:name="com.mediatek.engineermode.power.PMU6575" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ChargeBattery" android:name="com.mediatek.engineermode.power.ChargeBattery" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio" android:name="com.mediatek.engineermode.audio.Audio" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_ModeSetting" android:name="com.mediatek.engineermode.audio.AudioModeSetting" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_SpeechEnhancement" android:name="com.mediatek.engineermode.audio.AudioSpeechEnhancementV1" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_SpeechEnhancement" android:name="com.mediatek.engineermode.audio.AudioSpeechEnhancementV2" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/Audio_DebugInfo" android:name="com.mediatek.engineermode.audio.AudioDebugInfo" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_DebugSession" android:name="com.mediatek.engineermode.audio.AudioDebugSession" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_SpeechLogger" android:name="com.mediatek.engineermode.audio.AudioSpeechLoggerXV1" android:screenOrientation="portrait"/>
+        <activity android:label="@string/Audio_SpeechLogger" android:name="com.mediatek.engineermode.audio.AudioSpeechLoggerXV2" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.audio.CopyHalDumpService"/>
+        <activity android:label="@string/Audio_AudioLogger" android:name="com.mediatek.engineermode.audio.AudioAudioLogger" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/audio_volume_title" android:name="com.mediatek.engineermode.audio.AudioVolume" android:screenOrientation="portrait"/>
+        <activity android:label="@string/audio_volume_voice" android:name="com.mediatek.engineermode.audio.AudioVolumeVoice" android:screenOrientation="portrait"/>
+        <activity android:label="@string/audio_volume_voip" android:name="com.mediatek.engineermode.audio.AudioVolumeVoIP" android:screenOrientation="portrait"/>
+        <activity android:label="@string/audio_volume_record" android:name="com.mediatek.engineermode.audio.AudioVolumeRecord" android:screenOrientation="portrait"/>
+        <activity android:label="@string/audio_volume_playback" android:name="com.mediatek.engineermode.audio.AudioVolumePlayback" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi" android:name="com.mediatek.engineermode.wifi.WiFi" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_nvram" android:name="com.mediatek.engineermode.wifi.WiFiEeprom" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_mcr" android:name="com.mediatek.engineermode.wifi.WiFiMcr" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_tx" android:name="com.mediatek.engineermode.wifi.WiFiTx6620" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_rx" android:name="com.mediatek.engineermode.wifi.WiFiRx6620" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_ctia" android:name="com.mediatek.engineermode.wifi.WifiTestSetting" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_tx" android:name="com.mediatek.engineermode.wifi.WiFiTx6632" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_rx" android:name="com.mediatek.engineermode.wifi.WiFiRx6632" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_tx" android:name="com.mediatek.engineermode.wifi.WiFiTxFormat" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_rx" android:name="com.mediatek.engineermode.wifi.WiFiRxFormat" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_dbdc_mode" android:name="com.mediatek.engineermode.wifi.WiFiDBDC" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_item_rfcr" android:name="com.mediatek.engineermode.wifi.WiFiRFCR" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_em_cfg" android:name="com.mediatek.engineermode.wifi.WifiEmCfgActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.wifi.WifiWatchService"/>
+        <activity android:label="@string/AutoAnswer" android:name="com.mediatek.engineermode.AutoAnswer" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ChannelLock" android:name="com.mediatek.engineermode.channellock.channelSimSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ChannelLock" android:name="com.mediatek.engineermode.channellock.ChannelLock" android:screenOrientation="portrait"/>
+        <receiver android:name="com.mediatek.engineermode.channellock.ChannelLockReceiver" android:permission="com.mediatek.engineermode.permission.USAGE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.channellock.ACTION_CONFIG_CHANGE"/>
+                <action android:name="com.mediatek.channellock.ACTION_CONFIG_QUERY"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/bt_title" android:name="com.mediatek.engineermode.bluetooth.BtList" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_relayer" android:name="com.mediatek.engineermode.bluetooth.BtRelayerModeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_tx_only" android:name="com.mediatek.engineermode.bluetooth.TxOnlyTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_tx_tone" android:name="com.mediatek.engineermode.bluetooth.TxToneTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_rx" android:name="com.mediatek.engineermode.bluetooth.NoSigRxTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_tm" android:name="com.mediatek.engineermode.bluetooth.TestModeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_le_test" android:name="com.mediatek.engineermode.bluetooth.BleTestMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_le_eh_test" android:name="com.mediatek.engineermode.bluetooth.BleEnhancedTestMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bt_test_tool" android:name="com.mediatek.engineermode.bluetooth.BtTestTool" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.bluetooth.BtWatchService"/>
+        <activity android:label="ModemTestActivity" android:name="com.mediatek.engineermode.modemtest.ModemTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/modem_warning_title" android:name="com.mediatek.engineermode.modemwarning.ModemWarning" android:screenOrientation="portrait"/>
+        <activity android:label="USB_TEST" android:name="com.mediatek.engineermode.usb.UsbList" android:screenOrientation="portrait"/>
+        <activity android:label="@string/USB_IF_TEST" android:name="com.mediatek.engineermode.usb.UsbTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/usb_phy_tuning" android:name="com.mediatek.engineermode.usb.UsbPhyTuning" android:screenOrientation="portrait"/>
+        <activity android:label="@string/usb_otg_switch" android:name="com.mediatek.engineermode.usb.UsbOtgSwitch" android:screenOrientation="portrait"/>
+        <activity android:label="@string/usb_super_speed_switch" android:name="com.mediatek.engineermode.UsbSuperSpeedSwitch" android:screenOrientation="portrait"/>
+        <activity android:label="@string/BandSelect" android:name="com.mediatek.engineermode.bandselect.BandSelect" android:screenOrientation="portrait"/>
+        <activity android:label="@string/BandModeSIMSelect" android:name="com.mediatek.engineermode.bandselect.BandModeSimSelect" android:screenOrientation="portrait"/>
+        <activity android:label="Fast Dormancy" android:name="com.mediatek.engineermode.fastdormancy.FastDormancy" android:screenOrientation="portrait"/>
+        <activity android:label="Config Fast Dormancy" android:name="com.mediatek.engineermode.fastdormancy.ConfigFD" android:screenOrientation="portrait"/>
+        <activity android:label="CFU" android:name="com.mediatek.engineermode.cfu.CfuActivity" android:screenOrientation="portrait"/>
+        <activity android:label="RTN" android:name="com.mediatek.engineermode.rttn.Rtnmain" android:screenOrientation="portrait"/>
+        <activity android:label="RtnInfo" android:name="com.mediatek.engineermode.rttn.RtnInfo" android:screenOrientation="portrait"/>
+        <activity android:label="SWLA" android:name="com.mediatek.engineermode.swla.SwlaActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/nfc" android:name="com.mediatek.engineermode.hqanfc.NfcMainPage" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_always_reader_mode" android:name="com.mediatek.engineermode.hqanfc.ReaderMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_rw_function" android:name="com.mediatek.engineermode.hqanfc.RwFunction" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_always_p2p_mode" android:name="com.mediatek.engineermode.hqanfc.PeerToPeerMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_always_card_emulation_mode" android:name="com.mediatek.engineermode.hqanfc.CardEmulationMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_polling_loop_mode" android:name="com.mediatek.engineermode.hqanfc.PollingLoopMode" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_tx_carrier_signal" android:name="com.mediatek.engineermode.hqanfc.TxCarrierSignal" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_virtual_card_function" android:name="com.mediatek.engineermode.hqanfc.VirtualCardFunction" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_pnfc_command" android:name="com.mediatek.engineermode.hqanfc.PnfcCommand" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_rw_read" android:name="com.mediatek.engineermode.hqanfc.FunctionRead" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_rw_write" android:name="com.mediatek.engineermode.hqanfc.FunctionWrite" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_version_query" android:name="com.mediatek.engineermode.hqanfc.VersionQuery" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_option" android:name="com.mediatek.engineermode.hqanfc.Option" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_loopback_test" android:name="com.mediatek.engineermode.hqanfc.LoopBackTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hqa_nfc_swp_test" android:name="com.mediatek.engineermode.hqanfc.SwpTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/rf_desense_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTest" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestGsm" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestTd" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestLte" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestLteCA" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestCdma" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_tx_test" android:name="com.mediatek.engineermode.rfdesense.RfDesenseTxTestNR" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/rf_desense_digrf_label" android:name="com.mediatek.engineermode.rfdesense.RfDesenseDigRFTest" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.mediatek.engineermode.rfdesense.RfDesenseBroadcastReceiver" android:permission="com.mediatek.engineermode.permission.USAGE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.engineermode.rfdesenseServiceStart"/>
+                <action android:name="com.mediatek.engineermode.rfdesenseServiceStop"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.mediatek.engineermode.rfdesense.RfDesenseService"/>
+        <activity android:label="@string/rf_desense_gsm_control" android:name="com.mediatek.engineermode.rfdesense.RfDesenseGsmPowerControl" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.mediatek.engineermode.EngineerModeReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:scheme="android_secret_code" android:host="3646633"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:scheme="android_secret_code" android:host="98685"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="Network Selecting" android:name="com.mediatek.engineermode.networkselect.NetworkSelectActivity93" android:screenOrientation="portrait" android:configChanges="mcc|mnc|locale"/>
+        <activity android:label="Network Selecting" android:name="com.mediatek.engineermode.networkselect.NetworkSelectActivity" android:screenOrientation="portrait" android:configChanges="mcc|mnc|locale"/>
+        <activity android:label="SIM Select" android:name="com.mediatek.engineermode.networkselect.NetworkSelectSimType" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hspa_info_title" android:name="com.mediatek.engineermode.hspainfo.HspaInfo" android:screenOrientation="portrait"/>
+        <activity android:label="@string/uart_usb_switch" android:name="com.mediatek.engineermode.UartUsbSwitch"/>
+        <activity android:label="@string/wfd_quality" android:name="com.mediatek.engineermode.wfdsettings.WfdQuality" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wfd_settings" android:name="com.mediatek.engineermode.wfdsettings.WfdList" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wfd_power_saving" android:name="com.mediatek.engineermode.wfdsettings.WfdPowerSaving" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wfd_latency_profiling" android:name="com.mediatek.engineermode.wfdsettings.WfdLatency" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wfd_iot_property" android:name="com.mediatek.engineermode.wfdsettings.WfdIotProperty" android:screenOrientation="portrait"/>
+        <activity android:label="@string/world_phone" android:name="com.mediatek.engineermode.worldphone.ModemSwitch" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/usbacm" android:name="com.mediatek.engineermode.usbacm.UsbAcm" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ct_device_register" android:name="com.mediatek.engineermode.DeviceRegister" android:screenOrientation="portrait"/>
+        <activity android:label="@string/cw_test" android:name="com.mediatek.engineermode.cwtest.CWTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/lte_tool" android:name="com.mediatek.engineermode.lte.CommandTool"/>
+        <activity android:label="@string/lte_tool" android:name="com.mediatek.engineermode.lte.CommandToolEdit"/>
+        <service android:name="com.mediatek.engineermode.lte.CommandToolService" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <receiver android:name="com.mediatek.engineermode.lte.CommandToolReceiver" android:permission="com.mediatek.engineermode.permission.USAGE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.engineermode.lte.load_config"/>
+                <action android:name="com.mediatek.engineermode.lte.cmd_start"/>
+                <action android:name="com.mediatek.engineermode.lte.cmd_stop"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/preferred_phone_configuration_title" android:name="com.mediatek.engineermode.cxp.CarrierExpressActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/modem_reset_debug" android:name="com.mediatek.engineermode.modemresetdelay.ModemResetDelay" android:screenOrientation="portrait"/>
+        <activity android:label="@string/antenna_title" android:name="com.mediatek.engineermode.antenna.AntennaActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/voice_settings_title" android:name="com.mediatek.engineermode.voicesettings.VoiceList" android:screenOrientation="portrait"/>
+        <activity android:label="@string/voice_settings_wakeup" android:name="com.mediatek.engineermode.voicesettings.VoiceWakeup" android:screenOrientation="portrait"/>
+        <activity android:label="@string/voice_wakeup_recognition" android:name="com.mediatek.engineermode.voicesettings.VoiceWakeupRecognition" android:screenOrientation="portrait"/>
+        <activity android:label="@string/voice_wakeup_detector" android:name="com.mediatek.engineermode.voicesettings.VoiceWakeupDetector" android:screenOrientation="portrait"/>
+        <activity android:label="@string/low_power_debug" android:name="com.mediatek.engineermode.power.LowPowerDebug" android:screenOrientation="portrait"/>
+        <activity android:label="@string/misc_config" android:name="com.mediatek.engineermode.misc.MiscConfig" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ATCI_title" android:name="com.mediatek.engineermode.atci.atciActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/amr_wb" android:name="com.mediatek.engineermode.amrwb.AmrWbActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/aal_title" android:name="com.mediatek.engineermode.AalSetting" android:screenOrientation="portrait"/>
+        <receiver android:name="com.mediatek.engineermode.boot.EmBootupReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.mediatek.engineermode.boot.EmBootStartService" android:exported="false"/>
+        <activity android:label="@string/sbp_title" android:name="com.mediatek.engineermode.sbp.SbpActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/u3_phy_switch_title" android:name="com.mediatek.engineermode.u3phy.U3PhySwitch" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bypass_settings_title" android:name="com.mediatek.engineermode.bypass.BypassSettings" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.bypass.BypassService"/>
+        <activity android:label="@string/world_mode" android:name="com.mediatek.engineermode.worldmode.WorldModeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/sim_switch" android:name="com.mediatek.engineermode.simswitch.SimSwitch" android:screenOrientation="portrait"/>
+        <activity android:label="moms" android:name="com.mediatek.engineermode.moms.MoMs" android:screenOrientation="portrait"/>
+        <activity android:label="Send SPC" android:name="com.mediatek.engineermode.spc.SendSpc" android:screenOrientation="portrait"/>
+        <activity android:name="com.mediatek.engineermode.ecc.EmergencyNumbersActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mediatek.engineermode.data.MtuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mediatek.engineermode.data.NetworkSliceActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/md_em_filter" android:name="com.mediatek.engineermode.modemfilter.ModemFilterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/desense_at" android:name="com.mediatek.engineermode.desenseat.DesenseAtActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.desenseat.BgService" android:exported="false" android:foregroundServiceType="8"/>
+        <activity android:label="@string/camera" android:name="com.mediatek.engineermode.CameraTest" android:screenOrientation="portrait"/>
+        <activity android:label="@string/desense_at_api_test" android:name="com.mediatek.engineermode.desenseat.ApiTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/desense_at_rf_band_config" android:name="com.mediatek.engineermode.desenseat.RfBandConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/desense_at_band_settings" android:name="com.mediatek.engineermode.desenseat.BandDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/desense_at_show_history" android:name="com.mediatek.engineermode.desenseat.HistoryListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mediatek.engineermode.desenseat.HistoryDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ehrpd_bg_data" android:name="com.mediatek.engineermode.ehrpdbgdata.EhrpdBgData" android:screenOrientation="portrait"/>
+        <activity android:label="@string/usb_tethering" android:name="com.mediatek.engineermode.usbtethering.UsbTethering" android:screenOrientation="portrait"/>
+        <activity android:label="@string/clk_quality_at" android:name="com.mediatek.engineermode.clkqualityat.ClkQualityAtActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.clkqualityat.BgService" android:exported="false" android:foregroundServiceType="8"/>
+        <activity android:label="@string/md_log_filter" android:name="com.mediatek.engineermode.mdlogfilters.MDLogFiltersActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/md_em_filter" android:name="com.mediatek.engineermode.modemfilter.ModemFilterSimType" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ims_title" android:name="com.mediatek.engineermode.ims.SimSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ims_title" android:name="com.mediatek.engineermode.ims.ImsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ims_title" android:name="com.mediatek.engineermode.ims.ConfigIMSActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ims_title" android:name="com.mediatek.engineermode.ims.imsSettingPageActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/MDM_name" android:name="com.mediatek.engineermode.mdmcomponent.ComponentSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/MDM_name" android:name="com.mediatek.engineermode.mdmcomponent.MDMSimSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/MDM_name" android:name="com.mediatek.engineermode.mdmcomponent.MDMComponentDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/iatype" android:name="com.mediatek.engineermode.iatype.IATypeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/diagnostic_monitoring_setting" android:name="com.mediatek.engineermode.dm.DiagnosticMonitoringSettingActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <receiver android:name="com.mediatek.engineermode.dm.DmEnableLogReceiver" android:permission="com.mediatek.engineermode.permission.USAGE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.engineermode.dm.ACTION_ENABLE_DM_LOG"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/force_ant" android:name="com.mediatek.engineermode.forceant.ForceTx" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/force_ant" android:name="com.mediatek.engineermode.forceant.ForceTx9597Menu" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/force_ant_95" android:name="com.mediatek.engineermode.forceant.ForceTx95" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/force_ant_97" android:name="com.mediatek.engineermode.forceant.ForceTx97" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/force_ant" android:name="com.mediatek.engineermode.forceant.ForceTxSelect" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:label="@string/apc_feature" android:name="com.mediatek.engineermode.apc.ApcFeatureSimType" android:screenOrientation="portrait"/>
+        <activity android:label="@string/apc_feature" android:name="com.mediatek.engineermode.apc.ApcFeature" android:screenOrientation="portrait"/>
+        <activity android:label="@string/apc_menu" android:name="com.mediatek.engineermode.apc.ApcFakeInfo" android:screenOrientation="portrait"/>
+        <activity android:label="@string/sim_info" android:name="com.mediatek.engineermode.siminfo.SimSelectActivity" android:screenOrientation="portrait" android:configChanges="mcc|mnc|locale"/>
+        <activity android:label="@string/sim_info" android:name="com.mediatek.engineermode.siminfo.SimInfo" android:screenOrientation="portrait" android:configChanges="mcc|mnc|locale"/>
+        <activity android:label="@string/lte_ca_config" android:name="com.mediatek.engineermode.ltecaconfigure.LteCAConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/testsimcard" android:name="com.mediatek.engineermode.testsimswitch.TestSimSwitchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/presence" android:name="com.mediatek.engineermode.misc.PresenceActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/aosp_presence_test" android:name="com.mediatek.engineermode.misc.AospPresenceTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/presence_set" android:name="com.mediatek.engineermode.misc.PresenceSet" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/title_activity_ant_tuner_debug" android:name="com.mediatek.engineermode.anttunerdebug.AntTunerDebugInterfaceSelect" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ant_tuner_debug_bpi" android:name="com.mediatek.engineermode.anttunerdebug.AntTunerDebugBPI" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ant_tuner_debug_mipi" android:name="com.mediatek.engineermode.anttunerdebug.AntTunerDebugMIPI" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ant_tuner_debug_dat" android:name="com.mediatek.engineermode.anttunerdebug.AntTunerDebugDAT" android:screenOrientation="portrait"/>
+        <activity android:label="@string/epdg_config" android:name="com.mediatek.engineermode.epdgconfig.epdgConfigSimSelect" android:screenOrientation="portrait"/>
+        <activity android:label="@string/epdg_config" android:name="com.mediatek.engineermode.epdgconfig.epdgConfig" android:screenOrientation="portrait"/>
+        <activity android:label="@string/iot_config" android:name="com.mediatek.engineermode.iotconfig.IotConfigurationActivity" android:screenOrientation="portrait"/>
+        <receiver android:name="com.mediatek.engineermode.tethering.TetheringTestReceiver" android:permission="android.permission.MODIFY_PHONE_STATE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.intent.action.ACTION_ENABLE_NSIOT_TESTING"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.mediatek.engineermode.tethering.TetheringTestService" android:exported="false"/>
+        <activity android:label="@string/wcn_core_dump" android:name="com.mediatek.engineermode.wcncoredump.WcncoredumpActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mdm_diagnostic_title" android:name="com.mediatek.engineermode.mdmdiagnosticinfo.MDMComponentSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mdm_diagnostic_title" android:name="com.mediatek.engineermode.mdmdiagnosticinfo.MDMSimSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mdm_diagnostic_title" android:name="com.mediatek.engineermode.mdmdiagnosticinfo.MDMComponentDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mcf_config" android:name="com.mediatek.engineermode.mcfconfig.McfSimSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mcf_config" android:name="com.mediatek.engineermode.mcfconfig.McfFileSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mcf_config" android:name="com.mediatek.engineermode.mcfconfig.McfConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mcf_config" android:name="com.mediatek.engineermode.mcfconfig.McfConfigActivity93" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mcf_config" android:name="com.mediatek.engineermode.mcfconfig.McfConfigActivity98" android:screenOrientation="portrait"/>
+        <activity android:label="@string/vilte_menu_select" android:name="com.mediatek.engineermode.vilte.VilteMenuSelect"/>
+        <activity android:label="@string/vilte_menu_common" android:name="com.mediatek.engineermode.vilte.VilteMenuCommon"/>
+        <activity android:label="@string/vilte_menu_operator" android:name="com.mediatek.engineermode.vilte.VilteMenuOperator"/>
+        <activity android:label="VilteImsFramework" android:name="com.mediatek.engineermode.vilte.VilteImsFramework"/>
+        <activity android:label="ViLTEVtService" android:name="com.mediatek.engineermode.vilte.ViLTEVtService"/>
+        <activity android:label="VilteMenuMedia" android:name="com.mediatek.engineermode.vilte.VilteMenuMedia"/>
+        <activity android:label="VilteMenuCodec" android:name="com.mediatek.engineermode.vilte.VilteMenuCodec"/>
+        <activity android:label="@string/md_low_power_monitor_title" android:name="com.mediatek.engineermode.mdlowpowermonitor.MDLowPowerMonitor" android:screenOrientation="portrait"/>
+        <activity android:label="@string/connsys_patch_info" android:name="com.mediatek.engineermode.connsyspatchinfo.ConnsysPatchInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/rsc_title" android:name="com.mediatek.engineermode.rsc.RuntimeSwitchConfig" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ota_airplane_title" android:name="com.mediatek.engineermode.otaairplanemode.OtaAirplaneModeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/lte_rx_mimo_configure" android:name="com.mediatek.engineermode.lterxmimoconfigure.LteRxMimoConfigure" android:screenOrientation="portrait"/>
+        <activity android:label="@string/lte_single_band_setting" android:name="com.mediatek.engineermode.lterxmimoconfigure.LteSingleBandSetting" android:screenOrientation="portrait"/>
+        <activity android:label="@string/gwsd_setting" android:name="com.mediatek.engineermode.gwsd.GwsdSelector" android:screenOrientation="portrait"/>
+        <activity android:label="@string/gwsd_setting" android:name="com.mediatek.engineermode.gwsd.LteGwsdConfigure" android:screenOrientation="portrait"/>
+        <activity android:label="@string/gwsd_setting" android:name="com.mediatek.engineermode.gwsd.NRGwsdConfigureAdapter" android:screenOrientation="portrait"/>
+        <activity android:label="@string/gwsd_setting" android:name="com.mediatek.engineermode.gwsd.NRGwsdConfigureSim1" android:screenOrientation="portrait"/>
+        <activity android:label="@string/gwsd_setting" android:name="com.mediatek.engineermode.gwsd.NRGwsdConfigureSim2" android:screenOrientation="portrait"/>
+        <activity android:label="@string/vodata" android:name="com.mediatek.engineermode.vodata.VoDataActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/dsda_setting" android:name="com.mediatek.engineermode.dsdamonitor.DsdaMonitor" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.dsdamonitor.DsdaStatusViewService" android:enabled="true" android:exported="false"/>
+        <activity android:label="@string/wifi_calling_title" android:name="com.mediatek.engineermode.wificalling.EntitlementConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wifi_calling_title" android:name="com.mediatek.engineermode.wificalling.WifiCallingConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/lte_hpue_configure" android:name="com.mediatek.engineermode.ltehpueconfigure.LteHPUEConfigureActivity" android:screenOrientation="portrait"/>
+        <activity android:label="NoiseProfilingTool" android:name="com.mediatek.engineermode.npt.NoiseProfilingActivity"/>
+        <activity android:label="NoiseProfilingTool" android:name="com.mediatek.engineermode.npt.BandConfigActivity"/>
+        <activity android:label="NoiseProfilingTool" android:name="com.mediatek.engineermode.npt.BandDetailActivity"/>
+        <activity android:label="NoiseProfilingTool" android:name="com.mediatek.engineermode.npt.NptList"/>
+        <activity android:label="NoiseProfilingTool" android:name="com.mediatek.engineermode.npt.ItemMenuList"/>
+        <activity android:label="CcmHoppingTest_V1_5" android:name="com.mediatek.engineermode.npt.CcmHoppingTestActivity"/>
+        <activity android:label="@string/pch_data_prefer_title" android:name="com.mediatek.engineermode.MobileDataPreferred" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_debugutils" android:name="com.mediatek.engineermode.debugtool.DebugToolboxActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.debugtool.AEEControlService" android:exported="false" android:stopWithTask="true"/>
+        <activity android:label="@string/security_status" android:name="com.mediatek.engineermode.networkinfotc1.SecurityStatus" android:screenOrientation="portrait"/>
+        <activity android:label="@string/antenna_diversity" android:name="com.mediatek.engineermode.networkinfotc1.AntennaDiversity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/nr_config" android:name="com.mediatek.engineermode.nrconfigure.NrConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/dcb_cal" android:name="com.mediatek.engineermode.dcbcalibration.DcbCalibration" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smart_rat_switch" android:name="com.mediatek.engineermode.smartratswitch.SmartRatSwitchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/xpxt_aging_title" android:name="com.mediatek.engineermode.xpxtaging.XpxtAgingTest"/>
+        <activity android:label="@string/multi_sim_switch" android:name="com.mediatek.engineermode.multisimswitch.MultiSimSwitchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/dyn_debug_ctrl" android:name="com.mediatek.engineermode.dyndebugctrl.DynDebugCtrl" android:screenOrientation="portrait"/>
+        <activity android:label="@string/mnl_config" android:name="com.mediatek.engineermode.mnlconfigeditor.MnlConfigEditorActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/nr_map_config" android:name="com.mediatek.engineermode.nrmapconfigure.NrMapConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/aol_test" android:name="com.mediatek.engineermode.aoltest.AolTestActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mediatek.engineermode.aoltest.AolTestService" android:exported="false" android:stopWithTask="false"/>
+        <activity android:label="@string/cs_reevaluation" android:name="com.mediatek.engineermode.csreevaluation.ReevaluationActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:label="@string/md_thermal" android:name="com.mediatek.engineermode.mdthermal.MdThermalActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:label="@string/md_sar_and_pd" android:name="com.mediatek.engineermode.sarandpd.SarAndPdActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:label="@string/md_tx_div_dual_polar" android:name="com.mediatek.engineermode.divdualpolar.DivdualPolActivity" android:exported="false" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

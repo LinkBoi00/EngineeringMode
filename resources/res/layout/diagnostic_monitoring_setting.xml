@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout style="@style/info_layout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/dm_feature_option_status"/>
+        <TextView android:id="@+id/dm_fo_dmc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <TextView android:id="@+id/dm_fo_mapi_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <TextView android:id="@+id/dm_fo_mdmi_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout style="@style/info_layout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/dm_log_setting"/>
+        <Button android:id="@+id/dm_log_setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <Button android:id="@+id/dm_log_pkm_setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout style="@style/info_layout">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/dm_apm_service_setting"/>
+        <Button android:id="@+id/dm_apm_service_setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/dm_apm_activation_setting"/>
+        <Button android:id="@+id/dm_apm_activation_setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>

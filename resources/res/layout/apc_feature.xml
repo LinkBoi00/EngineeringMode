@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:textAppearance="?android:attr/textAppearanceListItemSmall" android:id="@+id/cb_apc_enable" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:button="@null" android:text="@string/apc_enable" android:drawableRight="?android:attr/listChoiceIndicatorMultiple" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    <CheckBox android:textAppearance="?android:attr/textAppearanceListItemSmall" android:id="@+id/cb_report_enable" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:button="@null" android:text="@string/apc_report_enable" android:drawableRight="?android:attr/listChoiceIndicatorMultiple" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/apc_report_timer" android:paddingStart="?android:attr/listPreferredItemPaddingStart"/>
+        <EditText android:id="@+id/apc_report_timer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:inputType="number" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    </LinearLayout>
+    <Button android:id="@+id/apc_set" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/apc_set"/>
+</LinearLayout>

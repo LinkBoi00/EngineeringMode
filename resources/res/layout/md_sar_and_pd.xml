@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableLayout android:id="@+id/TableLayout01" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow android:gravity="center_vertical" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_sub6g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/md_sar_and_pd_sub6g"/>
+            <Spinner android:id="@+id/sp_sub6g" android:layout_width="0dp" android:layout_height="wrap_content" android:drawSelectorOnTop="true"/>
+        </TableRow>
+        <TableRow android:gravity="center_vertical" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_fr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/md_sar_and_pd_fr2"/>
+            <Spinner android:id="@+id/sp_fr2" android:layout_width="0dp" android:layout_height="wrap_content" android:drawSelectorOnTop="true"/>
+        </TableRow>
+        <TableRow android:gravity="center_vertical" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/md_sar_and_pd_eci"/>
+            <EditText android:id="@+id/et_eci" android:layout_width="0dp" android:layout_height="wrap_content" android:inputType="numberDecimal"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+        <Button android:id="@+id/bt_sar_and_pd_set" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/md_sar_and_pd_set" android:layout_weight="1"/>
+        <Button android:id="@+id/bt_sar_and_pd_get" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/md_sar_and_pd_get" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

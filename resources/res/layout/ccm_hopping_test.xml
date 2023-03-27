@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ccm_hopping_test_test_mode" style="@style/info_label"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:entries="@array/ccm_hopping_test_mode" android:id="@+id/test_mode" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ccm_hopping_test_scan_mode" style="@style/info_label"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:entries="@array/ccm_hopping_scan_mode" android:id="@+id/scan_mode" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="170dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ccm_hopping_test_internval" style="@style/info_label"/>
+            <EditText android:id="@+id/internval" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="170dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ccm_hopping_test_waiting" style="@style/info_label"/>
+            <EditText android:id="@+id/waiting" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:id="@+id/test_result" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="10" android:singleLine="false"/>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/button_start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_start" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        <Button android:id="@+id/button_stop" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_stop" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        <Button android:id="@+id/button_exit_total" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/npt_exit" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+    </LinearLayout>
+    <include layout="@layout/noise_profiling_result_format"/>
+</LinearLayout>

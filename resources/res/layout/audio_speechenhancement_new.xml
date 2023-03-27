@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Spinner android:id="@+id/Audio_SpEnhancement_Scene" android:visibility="gone" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+    <Spinner android:id="@+id/Audio_SpEnhancement_ModeType" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+    <Spinner android:id="@+id/Audio_SpEnhancement_ParaType" android:visibility="gone" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+    <Spinner android:id="@+id/Audio_SpEnhancement_Vol_spin" android:visibility="gone" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+    <Spinner android:id="@+id/Audio_SpEnhancement_Network" android:visibility="gone" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+    <ListView android:id="@+id/Audio_SpEnhancement_ListView" android:layout_width="240dp" android:layout_height="0dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_weight="1"/>
+    <Button android:id="@+id/Audio_SpEnhancement_Button" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="@string/Audio_SpEnhancement_Button"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_gps"/>
+        <Spinner android:id="@+id/spinner_gps" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:id="@+id/desense_at_gps_l5_tr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_gps_l5"/>
+        <Spinner android:id="@+id/spinner_gps_l5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_glonass_l"/>
+        <Spinner android:id="@+id/spinner_glonass_l" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_glonass_m"/>
+        <Spinner android:id="@+id/spinner_glonass_m" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_glonass_h"/>
+        <Spinner android:id="@+id/spinner_glonass_h" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_bd"/>
+        <Spinner android:id="@+id/spinner_bd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

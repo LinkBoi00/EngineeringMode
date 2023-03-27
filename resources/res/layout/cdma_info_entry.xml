@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info1" android:padding="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info2" android:padding="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info3" android:padding="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info4" android:padding="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

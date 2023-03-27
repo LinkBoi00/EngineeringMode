@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableLayout android:id="@+id/TableLayout_LTE_Band_Configure" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:background="#ff00ff00" android:layout_width="match_parent" android:layout_height="3dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/bandmodesim1_LTE"/>
+                <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+            </TableLayout>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/BandSel_Btn_Set" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/BandSel_SET" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

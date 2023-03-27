@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:id="@+id/Modem_Reset_Time" android:layout_width="170dp" android:layout_height="wrap_content" android:text="@string/modem_reset_time"/>
+            <EditText android:id="@+id/Modem_Reset_Time_Edit" android:layout_width="140dp" android:layout_height="wrap_content" android:numeric="integer"/>
+        </LinearLayout>
+        <TextView android:id="@+id/Modem_Reset_Msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/modem_reset_msg"/>
+        <Button android:id="@+id/Modem_Reset_Done" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_marginTop="10dp" android:text="@string/modem_reset_Done"/>
+    </LinearLayout>
+</ScrollView>

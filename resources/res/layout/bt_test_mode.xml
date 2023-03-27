@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/bt_ant_swap"/>
+    <include layout="@layout/bt_power_set"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <Button android:id="@+id/bt_tm_enable" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tm_enable" android:layout_weight="1"/>
+        <Button android:id="@+id/bt_tm_disable" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tm_disable" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

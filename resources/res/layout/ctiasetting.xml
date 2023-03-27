@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/ctia_title"/>
+        <CheckBox android:id="@+id/enable_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ctia_checkbox"/>
+        <TextView android:textSize="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:text="@string/ctia_rate"/>
+        <Spinner android:id="@+id/rate_spinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:text="@string/ctia_flag"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp">
+            <TextView android:textSize="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ctia_id" android:layout_weight="1"/>
+            <EditText android:textSize="12dp" android:id="@+id/idedittext" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxWidth="96dp" android:minWidth="96dp" android:text="@string/ctia_default_val" android:singleLine="true" android:maxLength="8" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp">
+            <TextView android:textSize="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ctia_value" android:layout_weight="1"/>
+            <EditText android:textSize="12dp" android:id="@+id/valedittext" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxWidth="96dp" android:minWidth="96dp" android:text="@string/ctia_default_val" android:singleLine="true" android:maxLength="8" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="14dp" android:id="@+id/set_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:minWidth="100dp" android:text="@string/ctia_btn_set"/>
+            <Button android:textSize="14dp" android:id="@+id/get_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:minWidth="100dp" android:text="@string/ctia_btn_get"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/enable_dump_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ctia_dump_checkbox"/>
+        <CheckBox android:id="@+id/enable_dump_counter_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ctia_counter_checkbox"/>
+        <TextView android:textSize="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:text="@string/ctia_interval"/>
+        <EditText android:textSize="16dp" android:id="@+id/interval_edittext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:maxWidth="48dp" android:minWidth="48dp" android:singleLine="true" android:maxLength="3" android:inputType="number"/>
+    </LinearLayout>
+</ScrollView>

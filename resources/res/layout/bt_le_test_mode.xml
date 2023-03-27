@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/bt_ant_swap"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_le_eh_test_mode" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/ble_test_mode_rg" android:layout_width="0dp" android:layout_height="wrap_content" android:checkedButton="@+id/bt_le_test_tx_rb" android:layout_weight="2">
+                <RadioButton android:id="@+id/ble_test_tx_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/bt_le_test_tx" android:layout_weight="1"/>
+                <RadioButton android:id="@+id/ble_test_rx_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_le_test_rx" android:layout_weight="1"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_le_test_channel" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <Spinner android:id="@+id/ble_test_ch_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_le_test_pattern" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <Spinner android:entries="@array/bt_le_test_pattern" android:id="@+id/ble_test_pattern_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/ble_test_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_start" android:layout_weight="1"/>
+            <Button android:id="@+id/ble_test_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_stop" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:id="@+id/ble_test_result_tv" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

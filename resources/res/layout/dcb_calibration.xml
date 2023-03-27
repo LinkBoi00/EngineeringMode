@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <Button android:id="@+id/dcb_cal_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/dcb_cal_start" android:layout_weight="1"/>
+        <Button android:id="@+id/dcb_cal_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/dcb_cal_stop" android:layout_weight="1"/>
+        <Button android:id="@+id/dcb_cal_save_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/dcb_cal_save_result" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_status"/>
+        <TextView android:id="@+id/dcb_cal_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_values" android:layout_marginStart="8pt"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_gps"/>
+        <TextView android:id="@+id/dcb_cal_value_gps_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_beidou"/>
+        <TextView android:id="@+id/dcb_cal_value_beidou_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_galileo"/>
+        <TextView android:id="@+id/dcb_cal_value_galileo_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb_cal_qzss"/>
+        <TextView android:id="@+id/dcb_cal_value_qzss_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

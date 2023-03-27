@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/clk_quality_at_test_items_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clk_quality_at_test_items" android:onClick="onClick" android:layout_marginStart="10dp"/>
+        <TextView android:id="@+id/clk_quality_at_show_thermal_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="onClick"/>
+        <Button android:id="@+id/clk_quality_at_hide_thermal_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clk_quality_at_hide_thermal" android:onClick="onClick"/>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clk_quality_at_clock_type" android:layout_marginStart="10dp"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/clk_quality_at_clock_type_rg" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/clk_quality_at_clock_co_tms_rb">
+        <RadioButton android:id="@+id/clk_quality_at_clock_co_tms_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_clock_type_co_tms" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/clk_quality_at_clock_txco_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_clock_type_tcxo" android:layout_weight="1"/>
+    </RadioGroup>
+    <View android:id="@+id/clk_quality_at_modes_divider_view" android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:id="@+id/clk_quality_at_modes_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clk_quality_at_mode" android:layout_marginStart="10dp"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/clk_quality_at_modes_rg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/clk_quality_at_mode_test_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/clk_quality_at_mode_test" android:layout_weight="1"/>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/clk_quality_at_mode_learning_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_mode_learning" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/clk_quality_at_mode_thermal_programming_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_mode_thermal_programming" android:layout_weight="1"/>
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@+id/clk_quality_at_thermal_param_ll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_power" android:layout_weight="1"/>
+            <EditText android:id="@+id/clk_quality_at_power_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="numberDecimal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_repeat_times" android:layout_weight="1"/>
+            <EditText android:id="@+id/clk_quality_at_repeat_times_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_break_time" android:layout_weight="1"/>
+            <EditText android:id="@+id/clk_quality_at_break_time_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_heating_time" android:layout_weight="1"/>
+            <EditText android:id="@+id/clk_quality_at_heating_time_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_cool_time" android:layout_weight="1"/>
+            <EditText android:id="@+id/clk_quality_at_cool_time_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/clk_quality_at_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_start" android:layout_weight="1" android:onClick="onClick"/>
+        <Button android:id="@+id/clk_quality_at_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clk_quality_at_stop" android:layout_weight="1" android:onClick="onClick"/>
+    </LinearLayout>
+    <TextView android:id="@+id/clk_quality_at_pre_check_fail_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clk_quality_at_check_bit_fail"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/clk_quality_at_learning_result_ll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/clk_quality_at_learning_result_tv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/clk_quality_at_learning_param_tv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include layout="@layout/clk_quality_at_result_format"/>
+</LinearLayout>

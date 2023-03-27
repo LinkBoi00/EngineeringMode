@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cw_test_freq_band_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_freq_band" android:layout_marginStart="3pt"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/cw_test_l1_cb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_freq_band_l1" android:layout_weight="1"/>
+            <CheckBox android:id="@+id/cw_test_l5_cb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_freq_band_l5" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_sat_cons" android:layout_marginStart="3pt"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/cw_test_sat_cons_rg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/cw_test_gps_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/cw_test_sat_cons_gp" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/cw_test_gl_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_sat_cons_gl" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/cw_test_bd_rb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_sat_cons_bd" android:layout_weight="1"/>
+    </RadioGroup>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_times_tx" android:layout_weight="1" android:layout_marginStart="3pt"/>
+        <EditText android:id="@+id/cw_test_times_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_interval_tx" android:layout_weight="1" android:layout_marginStart="3pt"/>
+        <EditText android:id="@+id/cw_test_interval_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8pt">
+        <Button android:id="@+id/cw_test_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_start" android:layout_weight="1"/>
+        <Button android:id="@+id/cw_test_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cw_test_stop" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_cur_times_tx"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_cnr"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_clock_drift"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_max_cnr"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_min_cnr"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_freq_band_l1"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_cur_times_l1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_cnr_l1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_clock_drift_l1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_max_cnr_l1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_min_cnr_l1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/cw_test_l5_result_ll" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_freq_band_l5"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_cur_times_l5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_cnr_l5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_test_na"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_max_cnr_l5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/cw_test_min_cnr_l5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

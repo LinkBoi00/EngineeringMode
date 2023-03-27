@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/fd_textView"/>
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/fd_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/fd_on_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_turn_on"/>
+            <RadioButton android:id="@+id/fd_off_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_turn_off"/>
+            <RadioButton android:id="@+id/fd_legacy_off_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_turn_off_legacy"/>
+        </RadioGroup>
+        <Button android:gravity="center" android:id="@+id/fd_set_button" android:layout_width="60dp" android:layout_height="wrap_content" android:layout_marginLeft="200dp" android:text="@string/fd_ok"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:layout_marginTop="3pt" android:text="@string/Audio_AudioLogger_Text"/>
+    <View android:background="#ff909090" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginTop="3pt"/>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayoutCheck" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <View android:background="#ff909090" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginTop="3pt"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:layout_marginTop="3pt" android:text="@string/Audio_AudioCommand"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="16sp" android:id="@+id/GetAudioCommandText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5"/>
+                <Spinner android:entries="@array/Audio_GetAudioCommandSpinner" android:id="@+id/Audio_GetAudioCommandSpinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/Audio_GetAudioCommand" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/Audio_Get" android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="16sp" android:id="@+id/SetAudioCommandText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5"/>
+                <Spinner android:entries="@array/Audio_SetAudioCommandSpinner" android:id="@+id/Audio_SetAudioCommandSpinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/Audio_SetAudioCommand" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/Audio_Set" android:layout_weight="2"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Audio_AudioParameter"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="14sp" android:id="@+id/GetAudioParameterText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5"/>
+                <Spinner android:entries="@array/Audio_GetAudioParameterSpinner" android:id="@+id/Audio_GetAudioParameterSpinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/Audio_GetAudioParameter" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/Audio_Get" android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="12sp" android:id="@+id/SetAudioParameterText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5"/>
+                <Spinner android:entries="@array/Audio_SetAudioParameterSpinner" android:id="@+id/Audio_SetAudioParameterSpinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+                <Button android:id="@+id/Audio_SetAudioParameter" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/Audio_Set" android:layout_weight="2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

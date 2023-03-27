@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature_list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <feature ifshow="true" key="security_status" name="2G/3G/4G Security Status"/>
+    <feature ifshow="true" key="antenna_diversity" name="3G/4G Antenna Diversity"/>
+    <feature ifshow="true" key="force_tx" name="Ant Force"/>
+    <feature ifshow="true" key="anttunerdebug" name="Ant Tuner Debug"/>
+    <feature ifshow="true" key="antenna" name="Antenna Test"/>
+    <feature ifshow="true" key="apc" name="APC Feature"/>
+    <feature ifshow="true" key="auto_answer" name="Auto Answer"/>
+    <feature ifshow="true" key="ehrpd_bg_data" name="Background Data Select"/>
+    <feature ifshow="true" key="bandmode" name="BandMode"/>
+    <feature ifshow="true" key="c2k_ap_ir" name="C2K AP IR"/>
+    <feature ifshow="true" key="c2k_ir_settings" name="C2K IR Settings"/>
+    <feature ifshow="true" key="bypass" name="C2K modem setting"/>
+    <feature ifshow="true" key="cdma_network_select" name="CDMA Network Select"/>
+    <feature ifshow="true" key="cdma_network_info" name="CDMA NetworkInfo"/>
+    <feature ifshow="true" key="cfu" name="CFU"/>
+    <feature ifshow="true" key="channel_lock" name="Channel Lock"/>
+    <feature ifshow="true" key="emergency_num_key" name="Emergency Numbers"/>
+    <feature ifshow="true" key="ims" name="IMS"/>
+    <feature ifshow="true" key="iot_config" name="IOT Easy Configuration"/>
+    <feature ifshow="true" key="ltecaconfig" name="LTE CA Configure"/>
+    <feature ifshow="true" key="lte_hpue_configue" name="LTE HPUE Configure"/>
+    <feature ifshow="true" key="lte_rx_mimo_configure" name="LTE RX/MIMO Configure"/>
+    <feature ifshow="true" key="mcf_config" name="MCF Config"/>
+    <feature ifshow="true" key="md_low_power_monitor" name="MD Low Power Monitor"/>
+    <feature ifshow="true" key="mdm_em_info" name="MDML EM Components"/>
+    <feature ifshow="true" key="misc_config" name="Misc Feature Config"/>
+    <feature ifshow="true" key="mobile_data_prefer" name="Mobile data service preferred"/>
+    <feature ifshow="true" key="modem_test" name="Modem Test"/>
+    <feature ifshow="true" key="network_select" name="Network Selecting"/>
+    <feature ifshow="true" key="network_info" name="NetworkInfo"/>
+    <feature ifshow="true" key="ota_airplane_mode" name="Ota Airplane Mode"/>
+    <feature ifshow="true" key="rf_desense_test" name="RF De-sense Test"/>
+    <feature ifshow="true" key="rtn" name="Rtn/Scrtn"/>
+    <feature ifshow="true" key="sim_info" name="SIM Info"/>
+    <feature ifshow="true" key="smart_rat_switch" name="Smart rat switch"/>
+    <feature ifshow="true" key="test_sim_switch" name="Switch test sim card type"/>
+    <feature ifshow="true" key="usb_tethering" name="Usb Tethering"/>
+    <feature ifshow="true" key="vilte" name="ViLTE"/>
+    <feature ifshow="true" key="wifi_calling" name="Wifi Calling"/>
+    <feature ifshow="true" key="world_mode" name="World Mode"/>
+    <feature ifshow="true" key="modem_switch" name="World Phone"/>
+    <feature ifshow="true" key="bluetooth" name="Bluetooth"/>
+    <feature ifshow="true" key="connsys_patch_info" name="Connsys Patch Information"/>
+    <feature ifshow="true" key="nfc_st" name="NFC(STMicro)"/>
+    <feature ifshow="true" key="wifi" name="WiFi"/>
+    <feature ifshow="true" key="wifi_ctia" name="WiFi CTIA"/>
+    <feature ifshow="true" key="audio" name="Audio"/>
+    <feature ifshow="true" key="device_register" name="Device Register"/>
+    <feature ifshow="true" key="debug_utils" name="Debug Utils"/>
+    <feature ifshow="true" key="diagnostic_monitoring_setting" name="Diagnostic Monitoring Setting"/>
+    <feature ifshow="true" key="dynamic_debug_control" name="Dynamic Debug Control"/>
+    <feature ifshow="true" key="telephony_log_setting" name="Telephony Log Setting"/>
+    <feature ifshow="true" key="moms" name="MoMs"/>
+    <feature ifshow="true" key="rsc" name="Runtime Switchable Configuration"/>
+</feature_list>

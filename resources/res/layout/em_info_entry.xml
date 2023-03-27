@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info1" android:padding="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="1" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info2" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="2" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info3" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="3" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info4" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="4" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info5" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="5" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info6" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="6" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info7" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="7" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info8" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="8" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info9" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="9" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info10" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="10" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info11" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="11" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info12" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="12" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info13" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="13" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info14" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="14" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info15" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <View android:tag="15" android:background="#ff303030" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <com.mediatek.engineermode.mdmcomponent.MdmTextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/info16" android:padding="2dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

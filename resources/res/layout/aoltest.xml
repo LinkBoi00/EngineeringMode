@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="3dp"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/aol_wifi_test" android:layout_marginStart="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <CheckBox android:id="@+id/wifi_chkbox" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="false" android:text="@string/aol_wifi" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_scan_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/wifi_scan_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_cb_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/wifi_cb_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_rcv_msg" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:id="@+id/wifi_rcv_msg_txt" android:layout_width="0dp" android:layout_height="wrap_content" android:minLines="5" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="3dp"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/aol_bt_test" android:layout_marginStart="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <CheckBox android:id="@+id/bt_chkbox" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="false" android:text="@string/aol_bt" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_scan_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/bt_scan_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_cb_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/bt_cb_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_rcv_msg" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:id="@+id/bt_rcv_msg_txt" android:layout_width="0dp" android:layout_height="wrap_content" android:minLines="5" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="3dp"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/aol_gps_test" android:layout_marginStart="10dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <CheckBox android:id="@+id/gps_chkbox" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="false" android:text="@string/aol_gps" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_scan_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/gps_scan_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_cb_intvl" android:layout_weight="1" android:layout_marginStart="10dp"/>
+            <EditText android:id="@+id/gps_cb_intvl_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:singleLine="true" android:layout_weight="1" android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_rcv_msg" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:id="@+id/gps_rcv_msg_txt" android:layout_width="0dp" android:layout_height="wrap_content" android:minLines="5" android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="3dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_btn_start" android:layout_weight="1"/>
+            <Button android:id="@+id/stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/aol_btn_stop" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

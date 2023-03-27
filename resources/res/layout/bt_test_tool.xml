@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:id="@+id/always_visible_cb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/bt_always_visible"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_edit_normal" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@+id/ble_always_scan_cb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/ble_always_scan"/>
+        <RadioGroup android:orientation="vertical" android:id="@+id/ble_scan_mode_rg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp">
+            <RadioButton android:id="@+id/ble_scan_mode_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ble_scan_mode_lp"/>
+            <RadioButton android:id="@+id/ble_scan_mode_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ble_scan_mode_bl"/>
+            <RadioButton android:id="@+id/ble_scan_mode_high" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/ble_scan_mode_ll"/>
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="#a0a0a0" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <Button android:id="@+id/bluetooth_info_bn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bt_information"/>
+</LinearLayout>

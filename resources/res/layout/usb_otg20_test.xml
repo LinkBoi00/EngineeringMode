@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="#ff00ff00" android:layout_width="match_parent" android:layout_height="3dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/USB_IF_Elec_Test_Text"/>
+            <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/USB_IF_Text_TEST_SE0_NAK"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_SE0_NAK_Start_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_START"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_SE0_NAK_Stop_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_STOP"/>
+            </TableRow>
+            <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/USB_IF_Text_TEST_J"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_J_Start_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_START"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_J_Stop_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_STOP"/>
+            </TableRow>
+            <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/USB_IF_Text_TEST_K"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_K_Start_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_START"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_K_Stop_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_STOP"/>
+            </TableRow>
+            <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3pt" android:text="@string/USB_IF_Text_TEST_PACKET"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_PACKET_Start_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_START"/>
+                <Button android:id="@+id/USB_IF_OTG20_Elec_TEST_PACKET_Stop_ID" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/USB_IF_Text_STOP"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

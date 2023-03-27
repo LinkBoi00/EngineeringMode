@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/swla_warning_text"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/swla_assert_btn1" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/swla_assert_text"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/swla_assert_btn2" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/swla_assert_text"/>
+    <Button android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/swla_swla_btn" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/swla_swla_text"/>
+</LinearLayout>

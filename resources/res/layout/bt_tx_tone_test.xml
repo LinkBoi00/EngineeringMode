@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/bt_ant_swap"/>
+    <include layout="@layout/bt_power_set"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tx_tone_type" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <Spinner android:entries="@array/bt_tx_tone_type" android:id="@+id/bt_tx_tone_type_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tx_tone_freq" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <EditText android:id="@+id/bt_tx_tone_freq_et" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:layout_weight="1" android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tx_tone_modulation" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <Spinner android:entries="@array/bt_tx_tone_modulation" android:id="@+id/bt_tx_tone_modulation_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_tx_tone_pattern" android:layout_weight="1" android:layout_marginStart="10dp"/>
+        <Spinner android:entries="@array/bt_tx_tone_pattern" android:id="@+id/bt_tx_tone_pattern_sp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/bt_tx_tone_start_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_start" android:layout_weight="1"/>
+        <Button android:id="@+id/bt_tx_tone_stop_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bt_stop" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

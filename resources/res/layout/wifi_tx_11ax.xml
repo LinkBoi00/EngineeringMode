@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/wifi_11_ax_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/wifi_11ax_ru" android:layout_marginStart="10dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_ru_category"/>
+        <Spinner android:id="@+id/wifi_ru_category_spinner" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_ru_allocation"/>
+        <Spinner android:id="@+id/wifi_ru_allocation_spinner" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_ru_sta_id"/>
+        <EditText android:id="@+id/wifi_tx_ru_sta_id_et" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_ru_index"/>
+        <Spinner android:id="@+id/wifi_ru_index_spinner" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/wifi_11ax_tb" android:layout_marginStart="10dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_tb_l_sig_len"/>
+        <TextView android:id="@+id/wifi_11ax_tb_l_sig_len_tv" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_tb_ldpc_extra_sym"/>
+        <TextView android:id="@+id/wifi_11ax_tb_ldpc_extra_sym_tv" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_tb_pe_disambiguity"/>
+        <TextView android:id="@+id/wifi_11ax_tb_pe_disambiguity_tv" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_tb_a_factor"/>
+        <TextView android:id="@+id/wifi_11ax_tb_a_factor_tv" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="120dp" android:layout_height="wrap_content" android:text="@string/wifi_11ax_tb_tx_pe"/>
+        <TextView android:id="@+id/wifi_11ax_tb_tx_pe_tv" android:layout_width="200dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/vilte_title" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_vilte_title"/>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/vilte_setting_id_label" android:layout_weight="1"/>
+        <com.mediatek.engineermode.iotconfig.IotConfigEditText android:id="@+id/operator_id_input" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:singleLine="true" android:layout_weight="1" android:contentDescription="@string/vilte_input_name"/>
+    </LinearLayout>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vilte_setting_content_label"/>
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_show_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vilte_show_help"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/video_profile_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <HorizontalScrollView android:id="@+id/video_profile_title" android:paddingBottom="10dp" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:text="@string/support" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="60dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/quality" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/name" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/profile" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/level" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/width" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/height" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/framerate" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/Iinterval" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/minBitRate" android:singleLine="true"/>
+                    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/maxBitRate" android:singleLine="true"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <com.mediatek.engineermode.iotconfig.LinkedHorizontalScrollView android:id="@+id/video_profile_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.mediatek.engineermode.iotconfig.IotConfigListView android:id="@+id/video_profile_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.mediatek.engineermode.iotconfig.LinkedHorizontalScrollView>
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/btn_profile_save" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_save" android:layout_weight="1"/>
+                <Button android:id="@+id/btn_profile_cancel" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_cancel" android:layout_weight="1"/>
+                <Button android:id="@+id/btn_profile_reset" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_reset" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

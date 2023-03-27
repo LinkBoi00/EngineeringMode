@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/Contact1_EditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input phone number of contact 1"/>
+    <Button android:id="@+id/Contact1_Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SAVE"/>
+    <EditText android:id="@+id/Contact2_EditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input phone number of contact 2"/>
+    <Button android:id="@+id/Contact2_Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SAVE"/>
+    <ListView android:id="@+id/Aosp_Presence_ListView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

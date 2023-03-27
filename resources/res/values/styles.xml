@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="TextAppearance.info_label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.info_small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">@null</item>
+    </style>
+    <style name="TextAppearance.info_value">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="entry_layout">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="form_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_label">
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="info_value">
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="list_content_style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/list_corner</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="list_spiner_style">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="list_spiner_style_bold">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+</resources>

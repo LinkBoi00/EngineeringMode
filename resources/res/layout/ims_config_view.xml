@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:id="@+id/ims_config_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    <LinearLayout android:id="@+id/ims_config_edit_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/ims_config_edit_text" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:inputType="textNoSuggestions"/>
+        <TextView android:textSize="16sp" android:id="@+id/ims_config_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/ims_config_radio_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ims_config_checkbox_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+    <LinearLayout android:id="@+id/ims_config_spinner_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/ims_config_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="90dp" android:minHeight="40dp"/>
+    </LinearLayout>
+    <Button android:id="@+id/ims_config_set" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ims_pdn_set"/>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:id="@+id/desense_at_cw_l1_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/desense_at_l1" android:layout_marginStart="10dp"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/desense_at_system_sel_rg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <RadioButton android:enabled="false" android:id="@+id/desense_at_cw_gps_rb" android:layout_width="0dp" android:text="@string/desense_at_gps" android:layout_weight="1"/>
+        <RadioButton android:enabled="false" android:id="@+id/desense_at_cw_gl_rb" android:layout_width="0dp" android:text="@string/desense_at_glonass" android:layout_weight="1"/>
+        <RadioButton android:enabled="false" android:id="@+id/desense_at_cw_bd_rb" android:layout_width="0dp" android:text="@string/desense_at_bd" android:layout_weight="1"/>
+    </RadioGroup>
+    <CheckBox android:id="@+id/desense_at_cw_l5_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desense_at_l5" android:layout_marginStart="10dp"/>
+</LinearLayout>

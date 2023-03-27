@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:id="@+id/dsda_feature_switch_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="@string/dsda_feature_switch_txt"/>
+    <Switch android:id="@+id/dsda_feature_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true"/>
+    <TextView android:textSize="20sp" android:id="@+id/dsda_floating_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="40dp" android:text="@string/dsda_floating_txt" android:layout_alignTop="@+id/dsda_feature_switch_txt"/>
+    <Switch android:id="@+id/dsda_floating_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignTop="@+id/dsda_floating_txt" android:layout_alignParentRight="true"/>
+</RelativeLayout>

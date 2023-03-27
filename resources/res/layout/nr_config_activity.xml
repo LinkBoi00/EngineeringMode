@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/nr_config"/>
+        <Spinner android:id="@+id/nr_config_phones" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sa_sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="120dp" android:checked="false" android:text="@string/nr_sa_sw" android:switchMinWidth="56dp"/>
+        <Switch android:id="@+id/nsa_sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="120dp" android:checked="false" android:text="@string/nr_nsa_sw" android:switchMinWidth="56dp"/>
+    </LinearLayout>
+</LinearLayout>

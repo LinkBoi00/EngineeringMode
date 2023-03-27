@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/content_iot_wfc" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="15sp" android:layout_gravity="center_horizontal" android:id="@+id/wfc_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_wfc_title"/>
+    <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/iot_wfc_mccmnc" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/add_mccmnc_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.mediatek.engineermode.iotconfig.IotConfigEditText android:id="@+id/wfc_input_mccmnc" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:contentDescription="@string/et_add_mccmnc"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/add_mccmnc_ok" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_add_mccmnc_ok" android:layout_weight="1"/>
+                <Button android:id="@+id/add_mccmnc_cancel" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_add_mccmnc_cancel" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/reset_mccmnc_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/add_mccmnc" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_add_mccmnc" android:layout_weight="1"/>
+            <Button android:id="@+id/reset_mccmnc" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_reset_mccmnc" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str_mccmnc_list" android:singleLine="true" android:layout_weight="1"/>
+        <Spinner android:id="@+id/mccmnc_list_spinner" android:layout_width="0dp" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/str_mccmnc_show" android:layout_weight="3"/>
+    </LinearLayout>
+    <com.mediatek.engineermode.iotconfig.IotConfigListView android:id="@+id/mccmnc_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

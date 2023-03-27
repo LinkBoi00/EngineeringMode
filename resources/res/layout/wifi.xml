@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ListView android:id="@+id/wifi_item_lv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/wifi_version" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wifi_version_unknown" android:layout_marginStart="10dp"/>
+    <LinearLayout android:id="@+id/wifi_branch_layout" android:paddingTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_branch"/>
+        <TextView android:id="@+id/wifi_branch_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_branch_default"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/wifi_ver_layout" android:paddingTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_fw_ver"/>
+        <TextView android:id="@+id/wifi_ver_tv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

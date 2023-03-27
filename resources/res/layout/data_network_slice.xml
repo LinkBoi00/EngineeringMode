@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/app_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="16sp" android:id="@+id/request_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/slice_request"/>
+    <Button android:textSize="16sp" android:id="@+id/release_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/slice_release"/>
+    <Button android:textSize="16sp" android:id="@+id/send_data_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/send_data"/>
+    <Button android:textSize="16sp" android:id="@+id/get_config_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/get_slice_config"/>
+    <TextView android:textSize="16sp" android:id="@+id/slice_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/slice_default_hint"/>
+</LinearLayout>

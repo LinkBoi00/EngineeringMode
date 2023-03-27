@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:id="@+id/wifi_nss_text" android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_nss_text"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/wifi_tx_nss" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/wifi_tx_nss_1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wifi_nss_1_text" android:layout_weight="1"/>
+                <RadioButton android:id="@+id/wifi_tx_nss_2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wifi_nss_2_text" android:layout_weight="1"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <CheckBox android:id="@+id/wifi_wfx_0" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wifi_wf0_text" android:layout_weight="1"/>
+            <CheckBox android:id="@+id/wifi_wfx_1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wifi_wf1_text" android:layout_weight="1"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/wifi_duplicate_mode_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_dup_mode_text"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/wifi_ant_vg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:layout_gravity="center_vertical" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_ant_swap"/>
+            <RadioGroup android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/wifi_tx_ant_main" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/wifi_ant_main" android:layout_weight="1"/>
+                <RadioButton android:id="@+id/wifi_tx_ant_aux" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wifi_ant_aux" android:layout_weight="1"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_bandwidth"/>
+            <Spinner android:id="@+id/wifi_bandwidth_spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:id="@+id/wifi_bandwidth_dbw_tv" android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_dbw"/>
+            <Spinner android:id="@+id/wifi_bandwidth_dbw_spn" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:id="@+id/wifi_bandwidth_prim_ch_tv" android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_bw_advanced_prim_ch"/>
+            <Spinner android:id="@+id/wifi_bandwidth_prim_ch_spn" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_tx0_channel_text"/>
+            <Spinner android:id="@+id/wifi_tx0_channel_spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/wifi_tx1_channel_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_tx1_channel_text"/>
+            <Spinner android:id="@+id/wifi_tx1_channel_spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_rate_text"/>
+            <Spinner android:id="@+id/WiFi_Rate_Spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_pkt_text"/>
+            <EditText android:id="@+id/WiFi_Pkt_Edit" android:layout_width="230dp" android:layout_height="wrap_content" android:text="@string/wifi_default_value_zero" android:singleLine="true" android:numeric="integer"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_pktcnt_text"/>
+            <EditText android:id="@+id/WiFi_Pktcnt_Edit" android:layout_width="230dp" android:layout_height="wrap_content" android:text="@string/wifi_default_value_zero" android:singleLine="true" android:numeric="integer"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:layout_width="80dp" android:layout_height="52dp" android:text="@string/wifi_tx_power"/>
+            <EditText android:id="@+id/WiFi_Tx_Gain_Edit" android:layout_width="230dp" android:layout_height="wrap_content" android:text="@string/wifi_default_value_zero" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_preamble"/>
+            <Spinner android:id="@+id/WiFi_Preamble_Spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_guard_interval"/>
+            <Spinner android:id="@+id/WiFi_Guard_Interval_Spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <TextView android:paddingTop="10dp" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/wifi_mode_text"/>
+            <Spinner android:id="@+id/WiFi_Mode_Spinner" android:layout_width="230dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+            <Button android:id="@+id/WiFi_Go" android:layout_width="155dp" android:layout_height="wrap_content" android:text="@string/wifi_go"/>
+            <Button android:id="@+id/WiFi_Stop" android:layout_width="155dp" android:layout_height="wrap_content" android:text="@string/wifi_stop"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

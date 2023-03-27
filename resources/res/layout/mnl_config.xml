@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/mnl_config_set_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mnl_config_set" android:layout_weight="1"/>
+        <Button android:id="@+id/mnl_config_add_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mnl_config_add" android:layout_weight="1"/>
+        <Button android:id="@+id/mnl_config_reset_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mnl_config_reset" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:id="@+id/mnl_config_cur_format_tv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mnl_config_data_ll" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

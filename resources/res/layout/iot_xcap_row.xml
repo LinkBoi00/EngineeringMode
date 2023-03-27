@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="15sp" android:layout_gravity="center" android:id="@+id/xcap_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@+id/label" android:layout_weight="1"/>
+    <EditText android:id="@+id/xcap_value" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/xcap_check_layout" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+        <CheckBox android:layout_gravity="center_horizontal" android:id="@+id/xcap_check" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:textSize="8sp" android:textColor="#00aa00" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/set_xcap" android:background="@drawable/listview_btn_selector" android:layout_width="30dp" android:layout_height="30dp" android:text="@string/set_xcap"/>
+        <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/preferences_aee_settings">
+        <ListPreference android:entries="@array/entries_list_preference_aeemode" android:title="@string/title_preference_aeemode" android:key="@string/preference_aeemode" android:summary="@string/summary_preference_aeemode" android:dialogTitle="@string/dialog_title_list_preference_aeemode" android:entryValues="@array/entryvalues_list_preference_aeemode"/>
+        <ListPreference android:entries="@array/entries_list_preference_dal_setting" android:title="@string/title_preference_dal_setting" android:key="@string/preference_dal_setting" android:summary="@string/summary_preference_dal_setting" android:dialogTitle="@string/dialog_title_list_preference_dal_setting" android:entryValues="@array/entryvalues_list_preference_dal_setting"/>
+        <PreferenceScreen android:title="@string/title_preference_cleardal" android:key="@string/preference_cleardal" android:summary="@string/summary_preference_cleardal"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_preferences_device_maintain" android:key="@string/preferences_device_maintain">
+        <PreferenceScreen android:title="@string/title_preference_cleandata" android:key="@string/preference_cleandata" android:summary="@string/summary_preference_cleandata"/>
+    </PreferenceCategory>
+</PreferenceScreen>
